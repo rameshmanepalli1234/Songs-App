@@ -19,14 +19,14 @@
 }
 
 .input_dashboard{
-  width: 140px;
-  height: 25px;
+  width: 120px;
+  height: 21px;
   //border: 2px solid black;
   border-radius: 4px;
   //float: right;
-  margin-right: 10px;
+  margin-right: 5px;
   background: #f6f8f6;
-  font-size: 15px;
+  font-size: 12px;
   position: absolute;
   right: 0px;
   top:23px;
@@ -39,7 +39,7 @@
   width: 40px;
   font-size: 9px;
   position: absolute;
-  left: 400px;
+  left: 260px;
   top: 15px;
   background: skyblue;
   color: white;
@@ -47,14 +47,14 @@
 }
 
 .songTitles{      //-----> overall div for songs and view button
-  margin-left: 20px; //box shadow control
-  font-size: 18px;
-  margin-right: 20px;  //box shadow control
+  margin-left: 10px; //box shadow control
+  font-size: 14px;
+  margin-right: 10px;  //box shadow control
   //margin-top: 30px;
 }
 
 .songTitle{
-  width: 70%;
+  width: 40%;
   //display: inline-block;
   margin-left: 10px;
   white-space: nowrap;
@@ -79,9 +79,9 @@
 .searchResults{
   position: absolute;
   //left:900px;
-  right: 60px;
+  right: 37px;
   font-size: 10px;
-  top:53px
+  top:50px
 }
 
 .crossSearchIcon{
@@ -113,7 +113,7 @@
   //margin-left: 15px;
   cursor: pointer;
   position: absolute;
-  left: 450px;
+  left: 310px;
   top: 12px;
 }
 
@@ -124,7 +124,7 @@
   //margin-left: 15px;
   cursor: pointer;
   position: absolute;
-  left: 480px;
+  left: 340px;
   top: 14px;
 }
 
