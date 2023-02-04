@@ -54,7 +54,7 @@ const Dashboard = () => {
     }
 
     const handleOnLyric = () => {
-        console.log('hello');
+        alert('app is in development, kindly wait for update');
     }
 
 
@@ -79,7 +79,7 @@ const Dashboard = () => {
                     return (
                         <div key={index} className='card'>
                             <span className='songTitle'> {song.title} </span>
-                            <button className='viewLyricButton' onClick={handleOnLyric} disabled={true}>View</button>
+                            <button className='viewLyricButton' onClick={handleOnLyric}>View</button>
                             {isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={()=>{handleOnPlayButton(song.title)}}/> }
                             {isPauseButtonOpen && <BiPause className='pauseButton' size={25} onClick={handleOnPauseButton}/> }
                             <img src={YoutubeIcon} alt='youtube link' className='youtubeButton'/>
