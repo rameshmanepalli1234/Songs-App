@@ -1,17 +1,18 @@
 .DashboardHeading{
   text-align: left;
   margin-top: 13px;
+  margin-bottom: 20px;
 }
 
 .Heading_text{
-  margin-left: 10px;
-  font-size: 23px;
+  margin-left: 5px;
+  font-size: 18px;
 }
 
 .MainLogo{
-  width: 40px;
-  height: 40px;
-  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
   cursor: pointer;
   vertical-align: middle;  //keeping picture vertically align center
   border-radius: 20px;
@@ -78,9 +79,9 @@
 .searchResults{
   position: absolute;
   //left:900px;
-  right: 160px;
+  right: 60px;
   font-size: 10px;
-  top:30px
+  top:53px
 }
 
 .crossSearchIcon{
@@ -92,7 +93,7 @@
 }
 
 .contactUs{
-  margin-left: 8px;
+  margin-left: 3px;
   cursor: pointer;
 }
 
