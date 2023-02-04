@@ -1,0 +1,109 @@
+.DashboardHeading{
+  text-align: left;
+  margin-top: 13px;
+}
+
+.Heading_text{
+  margin-left: 20px;
+}
+
+.MainLogo{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+  vertical-align: middle;  //keeping picture vertically align center
+}
+
+.input_dashboard{
+  width: 300px;
+  height: 30px;
+  //border: 2px solid black;
+  border-radius: 7px;
+  //float: right;
+  margin-right: 50px;
+  background: #f6f8f6;
+  font-size: 17px;
+  position: absolute;
+  right: 0px;
+  top:23px;
+}
+
+.viewLyricButton{
+  cursor: pointer;
+  margin-top: 25px;    //keeping text in card vertically align
+  height: 25px;
+  width: 50px;
+  font-size: 13px;
+}
+
+.songTitles{      //-----> overall div for songs and view button
+  margin-left: 90px; //box shadow control
+  font-size: 20px;
+  margin-right: 400px;  //box shadow control
+}
+
+.songTitle{
+  width: 50%;
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 70px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.searchResults{
+  position: absolute;
+  //left:900px;
+  right: 370px;
+  font-size: 16px;
+  top:30px
+}
+
+.crossSearchIcon{
+  position: absolute;
+  cursor: pointer;
+  right: 55px;
+  color: red;
+  top: 25px;
+}
+
+.contactUs{
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.contactUsIcon{
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.contactUsModal{
+  position: absolute;
+  top: -100px;
+}
+
+.playButton, .pauseButton{
+  vertical-align: middle;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.youtubeButton{
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
