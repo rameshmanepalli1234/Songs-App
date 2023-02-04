@@ -78,7 +78,7 @@ const Dashboard = () => {
                 {filteredSongsList.map((song, index) => {
                     return (
                         <div key={index} className='card'>
-                            <span className='songTitle'> {song.title} </span>
+                            <span className='songTitle'> {song.teluguTitle} </span>
                             <button className='viewLyricButton' onClick={handleOnLyric}>View</button>
                             {isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={()=>{handleOnPlayButton(song.title)}}/> }
                             {isPauseButtonOpen && <BiPause className='pauseButton' size={25} onClick={handleOnPauseButton}/> }
