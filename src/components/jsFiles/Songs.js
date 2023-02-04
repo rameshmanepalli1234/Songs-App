@@ -1,6 +1,7 @@
 export const Songs=[
     {
         title:'nityamu stutinchina nee runamu tirchalenu',
+        teluguTitle:'Nithyamu Sthuthinchinaa',
         lyric: 'Nithyamu Sthuthinchinaa\n' +
             'Nee Runamu Theerchalenu\n' +
             'Samasthamu Neekichchinaa\n' +
@@ -90,6 +91,7 @@ export const Songs=[
     },
     {
       title: 'Bethlehemu Puramulo Oka Naati Raathiri',
+        teluguTitle:'బేత్లెహేము పురములో ఒక నాటి ',
       lyric: 'బేత్లెహేము పురములో ఒక నాటి రాతిరి\n' +
           'ఊహలకు అందని అద్భుతము జరిగెను\n' +
           'లోక చరిత మార్చిన దైవకార్యము\n' +
@@ -119,6 +121,7 @@ export const Songs=[
     },
     {
         title: 'Aparadini Yesiah',
+        teluguTitle:'అపరాధిని యేసయ్యా కృపజూపి బ్రోవుమయ్యా ',
         lyric: 'అపరాధిని యేసయ్యా కృపజూపి బ్రోవుమయ్యా\n' +
             'నెపమెంచకయె నీ కృపలో అపరాధములను క్షమించు\n' +
             '1.ఘోరంబుగా దూరితిని నేరంబులను జేసితిని\n' +
@@ -132,6 +135,7 @@ export const Songs=[
     },
     {
         title: 'Aascharya Karamaina',
+        teluguTitle:'ఆశ్చర్యకరమైన నీ కృపతో ',
         lyric: 'ఆశ్చర్యకరమైన నీ కృపతో\n' +
             'మనోహరమైన సీయోనులో\n' +
             'నా ప్రియుని నేను దర్శింతును\n' +
@@ -151,6 +155,7 @@ export const Songs=[
     },
     {
         title:'Ee Loka Yatralo',
+        teluguTitle:'ఈ లోక యాత్రలో నే సాగుచుండ ',
         lyric: 'ఈ లోక యాత్రలో నే సాగుచుండ\n' +
             'ఒకసారి నవ్వు ఒకసారి యేడ్పు\n' +
             'అయినను క్రీస్తేసు నాతోడ నుండు\n' +
@@ -169,6 +174,7 @@ export const Songs=[
     },
     {
         title: 'yenduko nanninthaga neevu',
+        teluguTitle:' ఎందికో నన్నింతగా నీవు ప్రేమించితివో దేవా',
         lyric: 'ఎందికో నన్నింతగా నీవు ప్రేమించితివో దేవా\n' +
             'అందుకో నా దీన స్తుతిపాత్ర హల్లెలూయ యేసయ్యా\n' +
             '1.నా పాపము బాప నరరూపి వైనావు\n' +
@@ -183,6 +189,7 @@ export const Songs=[
     },
     {
         title: 'Ye Yogyatha Leni Nannu',
+        teluguTitle:'ఏ యోగ్యతా లేని నన్ను నీవు ప్రేమించినావు దేవా ',
         lyric: 'ఏ యోగ్యతా లేని నన్ను నీవు ప్రేమించినావు దేవా\n' +
             'ఏ అర్హత లేని నన్ను నీవు రక్షించినావు ప్రభువా\n' +
             'నీకేమి చెల్లింతును నీ ఋణ మెలా తీర్తును\n' +
@@ -204,6 +211,7 @@ export const Songs=[
     },
     {
         title: 'deva maa kutumbamu',
+        teluguTitle:' దేవా మా కుటుంబము నీ సేవకే అంకితము',
         lyric: 'దేవా మా కుటుంబము నీ సేవకే అంకితము\n' +
             'ఈ శాప లోకానా నీ సాక్షులుగ నిలువ\n' +
             'నీ ఆత్మతో నింపుమా నీ ఆత్మతో నింపుమా\n' +
@@ -227,6 +235,7 @@ export const Songs=[
     },
     {
         title: 'nee krupa simhaasaname',
+        teluguTitle:'నీ కృపా సింహాసనమే ',
         lyric: 'నీ కృపా సింహాసనమే\n' +
             'నా నిత్యనివాసము\n' +
             'యెహోవా పరిశుద్ధుడు . . .\n' +
@@ -251,6 +260,7 @@ export const Songs=[
     },
     {
         title: 'nee neethi kiranaalu ',
+        teluguTitle:' నీ నీతి కిరణాలు నా బ్రతుకును చిగురింప చేసేనే',
         lyric: 'నీ నీతి కిరణాలు నా బ్రతుకును చిగురింప చేసేనే\n' +
             'కడవరి రక్షణలు నివు దాచి ఉంచిన స్వాస్థ్యము నాదే కదా\n' +
             'ఇదే కదా నా ఆనందము\n' +
@@ -270,6 +280,7 @@ export const Songs=[
     },
     {
         title: 'ne papino prabhuva',
+        teluguTitle:'నే పాపినో ప్రభువా ',
         lyric: 'నే పాపినో ప్రభువా\n' +
             'నన్ను కావుమా దేవా\n' +
             '1. కరుణాలవాలా నీ మ్రొలనీలా\n' +
@@ -285,6 +296,7 @@ export const Songs=[
     },
     {
         title: 'Nannu Karuninchumo Deva',
+        teluguTitle:'నన్ను కరుణించుమో దేవా ',
         lyric: 'నన్ను కరుణించుమో దేవా\n' +
             'నన్ను కరుణించుమో తండ్రి\n' +
             'నీ రెక్కలే నాకు ఆశ్రయం\n' +
@@ -298,6 +310,7 @@ export const Songs=[
     },
     {
         title: 'Nannu Thakumu',
+        teluguTitle:'నన్ను తాకుము పరిశుద్ధపరచుము ',
         lyric: 'నన్ను తాకుము పరిశుద్ధపరచుము\n' +
             'విమోచిచు నా ప్రియ ప్రభు పరిశుద్ధపరచుము\n' +
             '1. లోకము నుండి లోకపుబంధాల నుండి\n' +
@@ -318,6 +331,7 @@ export const Songs=[
     },
     {
         title : 'ninu gaka mari denini',
+        teluguTitle:'నిను గాక మరి దేనిని నే ప్రేమింప నీయ్యకు ',
         lyric:'నిను గాక మరి దేనిని నే ప్రేమింప నీయ్యకు\n' +
             'నీ కృపలో నీ దయలో నీ మహిమ సన్నిధిలో\n' +
             'నను నిలుపుమో యేసు\n' +
@@ -334,6 +348,7 @@ export const Songs=[
     },
     {
         title : 'Peda Naruni Rupamu',
+        teluguTitle:'పేదనరుని రూపము ధరించి ',
         lyric:'పేదనరుని రూపము ధరించి\n' +
             'యేసురాజు నీ చెంత నిలచే\n' +
             'అంగీకరించు మాయనను\n' +
@@ -354,6 +369,7 @@ export const Songs=[
     },
     {
         title : 'Prabhu Yesu Naa Kai',
+        teluguTitle:'ప్రభుయేసు నాకై నీ సర్వము నిచ్చితివి ',
         lyric:'ప్రభుయేసు నాకై నీ సర్వము నిచ్చితివి\n' +
             'ప్రేమనుబట్టి అర్పించు కొంటివి నాకై\n' +
             '1.శిరస్సు నిచ్చితివి ముండ్ల మకుటముకై\n' +
@@ -371,6 +387,7 @@ export const Songs=[
     },
     {
         title : 'matti nundi vachina ',
+        teluguTitle:'మట్టి నుండి వచ్చిన ఈ శరీరము మట్టి లోనే కలవాలి ',
         lyric:'మట్టి నుండి వచ్చిన ఈ శరీరము మట్టి లోనే కలవాలి\n' +
             'స్వామి నీవిచ్చిన ఈ ఆత్మా తిరిగి నీ చెంతకు చేరాలి\n' +
             '1. నీకే నే స్వంతం నీవే నా సర్వం నీ దరికే చేరాలి\n' +
@@ -386,6 +403,7 @@ export const Songs=[
     },
     {
         title : 'Modubarina Naa Mihima',
+        teluguTitle:'మొడుబారిన నా మహిమ జీవితం ',
         lyric:'మొడుబారిన నా మహిమ జీవితం\n' +
             'చిగురింప చేయుమయా\n' +
             'నా ఆత్మీయ వ్యవసాయకా\n' +
@@ -401,6 +419,7 @@ export const Songs=[
     },
     {
         title : 'Lokamunu Vidachi Vellavalenuga',
+        teluguTitle:' లోకమును విడచి వెళ్ళవలెనుగా',
         lyric:'లోకమును విడచి వెళ్ళవలెనుగా\n' +
             'సర్వమిచ్చటనే విడువా వలెన్\n' +
             'విడువా వలెన్\n' +
@@ -419,6 +438,7 @@ export const Songs=[
     },
     {
         title : 'vinava manavi yesiah',
+        teluguTitle:'వినవా మనవి యేసయ్య ',
         lyric:'వినవా మనవి యేసయ్య\n' +
             'ప్రభువా శరణం నీవయ్యా\n' +
             'మలినము నా గతం\n' +
@@ -441,6 +461,7 @@ export const Songs=[
     },
     {
         title : 'Virigina Manassutho Naligina',
+        teluguTitle:'విరిగిన మనస్సుతో నలిగిన హృదయముతో ',
         lyric:'విరిగిన మనస్సుతో నలిగిన హృదయముతో\n' +
             'అర్పణగా నీ సన్నిధిలో చేరితి\n' +
             'గైకొనుమా నా ప్రాణనాధుడా\n' +
@@ -455,6 +476,7 @@ export const Songs=[
     },
     {
         title : 'Santhosinchuma',
+        teluguTitle:'సంతోషించుమా ఓ యెరుషలేమా ',
         lyric:'సంతోషించుమా ఓ యెరుషలేమా\n' +
             'సర్వోన్నతుని జనాంగమా\n' +
             'ఆనందించుమా సియోను నగరమా\n' +
@@ -476,6 +498,7 @@ export const Songs=[
     },
     {
         title : 'Samulevvaru Deva\n',
+        teluguTitle:'సములెవ్వరు దేవా నీతో సమానులెవరు దేవా ',
         lyric:'సములెవ్వరు దేవా నీతో సమానులెవరు దేవా\n' +
             'వేల్పులలోనా నీ వంటి దేవుడు ఎవరున్నారు దేవా\n' +
             'పూజ్యులలోనా నీ వంటి ఘనుడు ఎవరున్నారు దేవా\n' +
@@ -491,6 +514,7 @@ export const Songs=[
     },
     {
         title : 'Siluva Yande Needu Prema',
+        teluguTitle:'సిలువ యెందే నీదు ప్రేమ ',
         lyric:'సిలువ యెందే నీదు ప్రేమ\n' +
             'తెలిసికొంటిమో ప్రభో\n' +
             '1. మాదు పాప గాయములను\n' +
@@ -504,6 +528,7 @@ export const Songs=[
     },
     {
         title : 'anchulanundi jaarela',
+        teluguTitle:'అంచులనుండి జారేల – గిన్నెలు నిండి పోర్లేలా ',
         lyric:'అంచులనుండి జారేల – గిన్నెలు నిండి పోర్లేలా\n' +
             'ఆశీర్వదిస్తాడు యేసయ్యా /2/\n' +
             'విశ్వాసంతో ప్రార్ధన చేసిన – ఇచ్చేదాక ఓపిక పట్టిన /2/\n' +
@@ -523,6 +548,7 @@ export const Songs=[
     },
     {
         title : 'anjali ghatiyinchinaamu ',
+        teluguTitle:' అంజలి ఘటియించినాము',
         lyric:'అంజలి ఘటియించినాము\n' +
             'అందరి మనసులలోని చీకటుల\n' +
             'హరియించి తరియింప చేయగా\n' +
@@ -568,6 +594,7 @@ export const Songs=[
     },
     {
         title : 'anthyadhinamula yendu memundaga',
+        teluguTitle:'అంత్య దినములందు మేం ఉండగా - నీ ఆత్మా కుమ్మరింపు నీయుమా ',
         lyric:'అంత్య దినములందు మేం ఉండగా - నీ ఆత్మా కుమ్మరింపు నీయుమా -2\n' +
             '\n' +
             'మేం దర్శనాలు చూచి మేం ప్రవచనాలు చెప్పి - లోకమందు మార్పు తెచ్చేదం\n' +
@@ -618,6 +645,7 @@ export const Songs=[
     },
     {
         title : 'andamaina kshanamu aanandamayamu',
+        teluguTitle:' అందమైన క్షణము ఆనందమయము',
         lyric:'అందమైన క్షణము ఆనందమయము\n' +
             'యేసయ్య పుట్టినవేళ సంబరమే సంబరము\n' +
             'యేసయ్య పుట్టినవేళ సంబరమే సంబరము (2)\n' +
@@ -650,6 +678,7 @@ export const Songs=[
     },
     {
         title : 'andamaina madhuramaina naamam evaridi',
+        teluguTitle:'అందమైన మధురమైన నామం ఎవరిది ',
         lyric:'అందమైన మధురమైన నామం ఎవరిది\n' +
             'మహిమాన్వితుడు మహిజన రక్షకుడు\n' +
             'ఆయనేసు యేసు యేసు (2) ||అందమైన||\n' +
@@ -671,6 +700,7 @@ export const Songs=[
     },
     {
         title : 'andhari chevulu gingurumanela',
+        teluguTitle:'అందరి చెవులు గింగురుమనేలా అంతట చాటి చెప్పాలా ',
         lyric:'అందరి చెవులు గింగురుమనేలా అంతట చాటి చెప్పాలా\n' +
             'యేసు రాకడకు సమయం అయ్యుందని\n' +
             'సిద్ధం కాకపోతే ఎంతో ఘోరమని\n' +
@@ -688,6 +718,7 @@ export const Songs=[
     },
     {
         title : 'ilapai prabhu yaesu immaanuyaelai janmimche',
+        teluguTitle:'ఇలపై ప్రభు యేసు - ఇమ్మానుయేలై జన్మించె ',
         lyric:'ఇలపై ప్రభు యేసు - ఇమ్మానుయేలై జన్మించె (2)\n' +
             'హల్లెలూయా మహిమ రాజు - లోకానికి వెలుగాయె – మనకోసం (2)\n' +
             '\n' +
@@ -703,6 +734,7 @@ export const Songs=[
     },
     {
         title : 'ishraayelu sainyamulaku mundu nadachina daivamaa',
+        teluguTitle:'ఇలపై ప్రభు యేసు - ఇమ్మానుయేలై జన్మించె ',
         lyric:'ఇశ్రాయేలు సైన్యములకు ముందు నడచిన దైవమా (2)\n' +
             'నేడు మాతో కూడా నుండి మమ్ము నడిపించుమా (2)\n' +
             '\n' +
@@ -720,6 +752,7 @@ export const Songs=[
     },
     {
         title : 'unnanthamyna prema',
+        teluguTitle:'ఉన్నతమైన ప్రేమ - అత్యున్నతమైన ప్రేమ ',
         lyric:'పల్లవి: ఉన్నతమైన ప్రేమ - అత్యున్నతమైన ప్రేమ\n' +
             'శాశ్వతమైన ప్రేమ - పరిపూర్ణమైన ప్రేమ\n' +
             'యేసుని ప్రేమా - ఆ కలువరి ప్రేమ - ఆ కలువరి ప్రేమా\n' +
@@ -740,6 +773,7 @@ export const Songs=[
     },
     {
         title : 'vullasinchi pata pade pavurama',
+        teluguTitle:'మృధు మధుర సుందర నారీమణీ ',
         lyric:'మృధు మధుర సుందర నారీమణీ\n' +
             'ఎద పవళించు నా ప్రాణేశ్వరీ\n' +
             'ఒక్క చూపుతో నీవాడనైతి\n' +
@@ -772,6 +806,7 @@ export const Songs=[
     },
     {
         title : 'emtha praemimchenoa dhaevuaodu',
+        teluguTitle:'ఎంత ప్రేమించెనో దేవుఁడు మనపై నెంతదయఁజూపెనో వింతగల ',
         lyric:'ఎంత ప్రేమించెనో దేవుఁడు మనపై నెంతదయఁజూపెనో వింతగల\n' +
             'యీ దైవప్రేమను సాంతమున ధ్యానింపరే ||ఎంత||\n' +
             '\n' +
@@ -805,6 +840,7 @@ export const Songs=[
     },
     {
         title : 'yenta manchi kapari ',
+        teluguTitle:'ఎంత మంచి కాపరి – యేసే నా ఊపిరి ',
         lyric:'ఎంత మంచి కాపరి – యేసే నా ఊపిరి (2)\n' +
             'తప్పిపోయిన గొర్రె నేను\n' +
             'వెదకి కనుగొన్నావయ్యా\n' +
@@ -826,6 +862,7 @@ export const Songs=[
     },
     {
         title : 'enduko nannintaga neevu preminchiti ',
+        teluguTitle:' ఎందుకో నన్నింతగా నీవు ప్రేమించితివో దేవా',
         lyric:'ఎందుకో నన్నింతగా నీవు ప్రేమించితివో దేవా\n' +
             'అందుకో నా దీన స్తుతిపాత్ర హల్లెలూయ యేసయ్యా\n' +
             '\n' +
@@ -845,6 +882,7 @@ export const Songs=[
     },
     {
         title : 'ella vaelalmdhu kashtakaalammdhu vallabhumdaa yaesu sthuthimthun',
+        teluguTitle:' ఎల్ల వేళలందు కష్టకాలమందు',
         lyric:'పల్లవి: ఎల్ల వేళలందు కష్టకాలమందు\n' +
             'వల్లభుండా యేసు స్తుతింతున్\n' +
             'ఎల్లను నీవే నా కెల్లెడల\n' +
@@ -873,6 +911,7 @@ export const Songs=[
     },
     {
         title : 'okkade yesu okkade',
+        teluguTitle:' ఒక్కడే యేసు ఒక్కడే',
         lyric:'\n' +
             'ఒక్కడే యేసు ఒక్కడే\n' +
             'ఒక్కడే పరిశుద్ధుడు ఒక్కడే (2)\n' +
@@ -897,6 +936,7 @@ export const Songs=[
     },
     {
         title : 'o talli kannanu o tamdri kannanu ',
+        teluguTitle:'ఓ తల్లి కన్నను ఓ తండ్రి కన్నను ',
         lyric:'ఓ తల్లి కన్నను ఓ తండ్రి కన్నను\n' +
             'ప్రేమించు దేవుడు క్షమియించు దేవుడు\n' +
             'ప్రేయసికన్న ప్రేమించు దేవుడు\n' +
@@ -918,6 +958,7 @@ export const Songs=[
     },
     {
         title : 'kanneerelammaa karuninchu yesu',
+        teluguTitle:' కన్నీరేలమ్మా కరుణించు యేసు నిన్ను విడువబోడమ్మా',
         lyric:'కన్నీరేలమ్మా కరుణించు యేసు నిన్ను విడువబోడమ్మా\n' +
             'కలవరపడకమ్మా కరుణించు యేసు నిన్ను విడువబోడమ్మా\n' +
             'కరుణ చూపి కలత మాన్పె (2)\n' +
@@ -939,6 +980,7 @@ export const Songs=[
     },
     {
         title : 'kreesthesu puttenu loka rakshakunigaa',
+        teluguTitle:' క్రీస్తేసు పుట్టెను.. లోక రక్షకునిగా',
         lyric:'క్రీస్తేసు పుట్టెను.. లోక రక్షకునిగా..\n' +
             'పశులపాక పావనమై.. పరవశించెనుగా…\n' +
             'పరవశించెనుగా…\n' +
