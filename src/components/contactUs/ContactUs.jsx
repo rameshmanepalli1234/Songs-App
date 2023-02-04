@@ -17,7 +17,7 @@ const ContactUs = (props) =>{
                   <BiX size={24} className='customerServiceCloseIcon' onClick={handleOnCloseCustomerService}/>
               </ModalHeader>
               <ModalBody>
-                  Don't Worry Please Send Us a Mail
+                  Don't worry please send us an email
               </ModalBody>
               <ModalFooter>
                   <button onClick={handleOnSendMail}> Send Mail</button>

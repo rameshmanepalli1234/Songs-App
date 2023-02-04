@@ -4,26 +4,28 @@
 }
 
 .Heading_text{
-  margin-left: 20px;
+  margin-left: 10px;
+  font-size: 23px;
 }
 
 .MainLogo{
-  width: 50px;
-  height: 50px;
-  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
   cursor: pointer;
   vertical-align: middle;  //keeping picture vertically align center
+  border-radius: 20px;
 }
 
 .input_dashboard{
-  width: 300px;
-  height: 30px;
+  width: 140px;
+  height: 25px;
   //border: 2px solid black;
-  border-radius: 7px;
+  border-radius: 4px;
   //float: right;
-  margin-right: 50px;
+  margin-right: 10px;
   background: #f6f8f6;
-  font-size: 17px;
+  font-size: 15px;
   position: absolute;
   right: 0px;
   top:23px;
@@ -31,30 +33,42 @@
 
 .viewLyricButton{
   cursor: pointer;
-  margin-top: 25px;    //keeping text in card vertically align
-  height: 25px;
-  width: 50px;
-  font-size: 13px;
+  //margin-top: 25px;    //keeping text in card vertically align
+  height: 20px;
+  width: 40px;
+  font-size: 9px;
+  position: absolute;
+  left: 400px;
+  top: 15px;
+  background: skyblue;
+  color: white;
+  border: none;
 }
 
 .songTitles{      //-----> overall div for songs and view button
-  margin-left: 90px; //box shadow control
-  font-size: 20px;
-  margin-right: 400px;  //box shadow control
+  margin-left: 20px; //box shadow control
+  font-size: 18px;
+  margin-right: 20px;  //box shadow control
+  //margin-top: 30px;
 }
 
 .songTitle{
-  width: 50%;
-  display: inline-block;
-  margin-left: 25px;
+  width: 70%;
+  //display: inline-block;
+  margin-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 9px;
 }
 
 .card{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  height: 70px;
-  margin-bottom: 50px;
+  //height: 70px;
+  margin-bottom: 10px;
   margin-top: 20px;
+  height: 50px !important;
 }
 
 .card:hover{
@@ -64,27 +78,27 @@
 .searchResults{
   position: absolute;
   //left:900px;
-  right: 370px;
-  font-size: 16px;
+  right: 160px;
+  font-size: 10px;
   top:30px
 }
 
 .crossSearchIcon{
   position: absolute;
   cursor: pointer;
-  right: 55px;
+  right: 10px;
   color: red;
   top: 25px;
 }
 
 .contactUs{
-  margin-left: 20px;
+  margin-left: 8px;
   cursor: pointer;
 }
 
 .contactUsIcon{
-  height: 40px;
-  width: 40px;
+  height: 25px;
+  width: 25px;
   vertical-align: middle;
 }
 
@@ -94,16 +108,22 @@
 }
 
 .playButton, .pauseButton{
-  vertical-align: middle;
-  margin-left: 15px;
+  //vertical-align: middle;
+  //margin-left: 15px;
   cursor: pointer;
+  position: absolute;
+  left: 450px;
+  top: 12px;
 }
 
 .youtubeButton{
-  height: 30px;
-  width: 30px;
-  vertical-align: middle;
-  margin-left: 15px;
+  height: 20px;
+  width: 20px;
+  //vertical-align: middle;
+  //margin-left: 15px;
   cursor: pointer;
+  position: absolute;
+  left: 480px;
+  top: 14px;
 }
 

@@ -1,5 +1,5 @@
 import './Dashboard.scss';
-import MusicLyricIcon from '../Images/MusicLyricIcon.webp';
+import yspm from '../Images/yspm.jpeg';
 import {Songs} from "../jsFiles/Songs";
 import {useEffect, useState} from "react";
 import {BiX, BiPlay, BiPause} from 'react-icons/bi';
@@ -61,12 +61,12 @@ const Dashboard = () => {
     return (
         <>
             <h1 className='DashboardHeading'>
-                <img src={MusicLyricIcon} className='MainLogo' alt='MusicLogo' onClick={handleOnMainLogo}/>
-                <span className='Heading_text'>Music Lyrics </span>
+                <img src={yspm} className='MainLogo' alt='MusicLogo' onClick={handleOnMainLogo}/>
+                <span className='Heading_text'>YSPM Ministries </span>
                 <span className='contactUs'> <img src={ContactUsIcon} alt='customerServiceLogo' className='contactUsIcon' onClick={handleOnCustomerService}/> </span>
                 {searchText ? <span className='searchResults'>{`Search Results - ${filteredSongsList.length} `}</span> : <span  className='searchResults'>{`Total Results - ${filteredSongsList.length}`}</span>}
                 <input className='input_dashboard' placeholder='Search...' onChange={handleOnSearchSongs} value={searchText}/>
-                { searchText && <BiX className='crossSearchIcon' size={24} onClick={handleOnRemoveSearchText}/>}
+                { searchText && <BiX className='crossSearchIcon' size={21} onClick={handleOnRemoveSearchText}/>}
             </h1>
             <hr/>
             {isCustomerServiceOpen &&
@@ -79,10 +79,10 @@ const Dashboard = () => {
                     return (
                         <div key={index} className='card'>
                             <span className='songTitle'> {song.title} </span>
-                            <button className='viewLyricButton' onClick={handleOnLyric}>View</button>
+                            <button className='viewLyricButton' onClick={handleOnLyric} disabled={true}>View</button>
                             {isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={()=>{handleOnPlayButton(song.title)}}/> }
                             {isPauseButtonOpen && <BiPause className='pauseButton' size={25} onClick={handleOnPauseButton}/> }
-                            <img src={YoutubeIcon} alt='youtube link' className='youtubeButton' />
+                            <img src={YoutubeIcon} alt='youtube link' className='youtubeButton'/>
                         </div>
                     )
                 })
