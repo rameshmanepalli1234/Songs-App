@@ -4,3 +4,11 @@
     -ms-user-select: none;
      user-select: none;
 }
+
+@media print {
+    html,
+    body {
+        /* Hide the whole page */
+        display: none;
+    }
+}
