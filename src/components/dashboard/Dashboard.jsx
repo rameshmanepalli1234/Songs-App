@@ -1,11 +1,15 @@
 import './Dashboard.scss';
 import yspm from '../Images/yspm.jpeg';
 import {Songs} from "../jsFiles/Songs";
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {BiX, BiPlay, BiPause} from 'react-icons/bi';
 import ContactUs from "../contactUs/ContactUs";
 import ContactUsIcon from '../Images/ContactUsIcon.png';
 import YoutubeIcon from '../Images/YoutubeIcon.png';
+import MenuItem from "@material-ui/core/MenuItem";
+import Button from "@material-ui/core/Button";
+import Menu from "@material-ui/core/Menu";
+import menuBar from '../Images/menuBar.png';
 
 
 const Dashboard = () => {
@@ -15,6 +19,7 @@ const Dashboard = () => {
     const [isCustomerServiceOpen, setIsCustomerServiceOpen] = useState(false);
     const [isPlayButtonOpen , setIsPlayButtonOpen] = useState(true);
     const [isPauseButtonOpen, setIsPauseButtonOpen] = useState(false);
+    const [anchorEl, setAnchorEl] = React.useState(null);
 
     const handleOnMainLogo = () => {
         window.location.reload();
@@ -57,6 +62,14 @@ const Dashboard = () => {
         alert('app is in development, kindly wait for update');
     }
 
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
+
 
     return (
         <>
@@ -67,6 +80,27 @@ const Dashboard = () => {
                 {searchText ? <span className='searchResults'>{`Search Results - ${filteredSongsList.length} `}</span> : <span  className='searchResults'>{`Total Results - ${filteredSongsList.length}`}</span>}
                 <input className='input_dashboard' placeholder='Search...' onChange={handleOnSearchSongs} value={searchText}/>
                 { searchText && <BiX className='crossSearchIcon' size={21} onClick={handleOnRemoveSearchText}/>}
+
+
+                <Button
+                    aria-controls="simple-menu"
+                    aria-haspopup="true"
+                    onClick={handleClick}
+                >
+                 <img src={menuBar} alt='menuBarIcon' height={22} width={22} className='menuIcon'/>
+                </Button>
+                <Menu
+                    keepMounted
+                    anchorEl={anchorEl}
+                    onClose={handleClose}
+                    open={Boolean(anchorEl)}
+                >
+                    <MenuItem onClick={handleClose}>My Account</MenuItem>
+                    <MenuItem onClick={handleClose}>Settings</MenuItem>
+                    <MenuItem onClick={handleClose}>Profile</MenuItem>
+                    <MenuItem onClick={handleClose}>Logout</MenuItem>
+                </Menu>
+                
             </h1>
             <hr/>
             {isCustomerServiceOpen &&
