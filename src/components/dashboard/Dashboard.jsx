@@ -59,7 +59,7 @@ const Dashboard = () => {
     }
 
     const handleOnLyric = () => {
-        alert('app is in development, kindly wait for update');
+         alert('app is in development, kindly wait for update');
     }
 
     const handleClick = (event) => {
