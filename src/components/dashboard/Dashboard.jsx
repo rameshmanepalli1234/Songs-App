@@ -6,9 +6,7 @@ import {BiX, BiPlay, BiPause} from 'react-icons/bi';
 import ContactUs from "../contactUs/ContactUs";
 import ContactUsIcon from '../Images/ContactUsIcon.png';
 import YoutubeIcon from '../Images/YoutubeIcon.png';
-import MenuItem from "@material-ui/core/MenuItem";
-import Button from "@material-ui/core/Button";
-import Menu from "@material-ui/core/Menu";
+import { MenuItem, Menu, Button } from '@mui/material';
 import menuBar from '../Images/menuBar.png';
 
 
