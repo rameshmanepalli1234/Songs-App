@@ -84,8 +84,9 @@ const Dashboard = () => {
                     aria-controls="simple-menu"
                     aria-haspopup="true"
                     onClick={handleClick}
+                    className='menuBarButton'
                 >
-                 <img src={menuBar} alt='menuBarIcon' height={22} width={22} className='menuIcon'/>
+                 <img src={menuBar} alt='menuBarIcon' height={22} width={22} />
                 </Button>
                 <Menu
                     keepMounted

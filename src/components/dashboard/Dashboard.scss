@@ -19,8 +19,8 @@
 }
 
 .input_dashboard{
-  width: 120px;
-  height: 21px;
+  width: 160px;
+  height: 23px;
   //border: 2px solid black;
   border-radius: 4px;
   //float: right;
@@ -29,7 +29,7 @@
   font-size: 12px;
   position: absolute;
   right: 0px;
-  top:23px;
+  top:80px;
 }
 
 .viewLyricButton{
@@ -51,6 +51,7 @@
   font-size: 14px;
   margin-right: 10px;  //box shadow control
   //margin-top: 30px;
+  margin-top:50px
 }
 
 .songTitle{
@@ -79,9 +80,9 @@
 .searchResults{
   position: absolute;
   //left:900px;
-  right: 37px;
+  right: 175px;
   font-size: 10px;
-  top:50px
+  top:85px
 }
 
 .crossSearchIcon{
@@ -89,7 +90,7 @@
   cursor: pointer;
   right: 10px;
   color: red;
-  top: 25px;
+  top: 80px;
 }
 
 .contactUs{
@@ -100,7 +101,10 @@
 .contactUsIcon{
   height: 25px;
   width: 25px;
-  vertical-align: middle;
+  //vertical-align: middle;
+  position: absolute;
+  right: 60px;
+  top: 20px;
 }
 
 .contactUsModal{
@@ -128,3 +132,7 @@
   top: 14px;
 }
 
+.menuBarButton{
+  position: absolute !important;
+  right: 0px !important;
+}
