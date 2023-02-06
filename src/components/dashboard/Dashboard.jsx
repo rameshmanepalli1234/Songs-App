@@ -17,7 +17,8 @@ const Dashboard = () => {
     const [isCustomerServiceOpen, setIsCustomerServiceOpen] = useState(false);
     const [isPlayButtonOpen , setIsPlayButtonOpen] = useState(true);
     const [isPauseButtonOpen, setIsPauseButtonOpen] = useState(false);
-    const [anchorEl, setAnchorEl] = React.useState(null);
+    const [language, setLanguage] = useState('Telugu');
+    const [anchorEl, setAnchorEl] = useState(null);
 
     const handleOnMainLogo = () => {
          window.location.reload();
@@ -60,6 +61,10 @@ const Dashboard = () => {
           alert('app is in development, kindly wait for update');
     }
 
+    const handleOnSelectLanguage = (event) => {
+        setLanguage(event.target.value);
+    }
+
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
     };
@@ -99,8 +104,11 @@ const Dashboard = () => {
                     <MenuItem onClick={handleClose}>Profile</MenuItem>
                     <MenuItem onClick={handleClose}>Logout</MenuItem>
                 </Menu>
-                
             </h1>
+                 <select className='selectLanguage' onChange={handleOnSelectLanguage}>
+                     <option value='Telugu'>Telugu</option>
+                     <option value='English'>English</option>
+                 </select>
             <hr/>
             {isCustomerServiceOpen &&
                 <div className='ContactUsModal'>
@@ -111,7 +119,7 @@ const Dashboard = () => {
                 {filteredSongsList.map((song, index) => {
                     return (
                         <div key={index} className='card'>
-                            <span className='songTitle'> {song.teluguTitle} </span>
+                            <span className='songTitle'> {language === 'Telugu' ? song.teluguTitle : song.title} </span>
                             <button className='viewLyricButton' onClick={handleOnLyric}>View</button>
                             {isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={()=>{handleOnPlayButton(song.title)}}/> }
                             {isPauseButtonOpen && <BiPause className='pauseButton' size={25} onClick={handleOnPauseButton}/> }
