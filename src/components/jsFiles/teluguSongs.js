@@ -4723,6 +4723,3646 @@ export const teluguSongs = [
         englishLyric: '',
         details: '',
         youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
+    },
+    {
+        teluguTitle: '',
+        englishTitle: '',
+        teluguLyric: '',
+        englishLyric: '',
+        details: '',
+        youtubeLink: ''
     }
 
 ]
