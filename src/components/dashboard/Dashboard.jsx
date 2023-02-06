@@ -9,6 +9,7 @@ import ContactUsIcon from '../Images/ContactUsIcon.png';
 import YoutubeIcon from '../Images/YoutubeIcon.png';
 import { MenuItem, Menu, Button } from '@mui/material';
 import menuBar from '../Images/menuBar.png';
+import ViewLyric from "../viewLyricModal/ViewLyric";
 
 
 const Dashboard = () => {
@@ -19,6 +20,8 @@ const Dashboard = () => {
     const [isPlayButtonOpen , setIsPlayButtonOpen] = useState(true);
     const [isPauseButtonOpen, setIsPauseButtonOpen] = useState(false);
     const [language, setLanguage] = useState('Telugu');
+    const [viewLyricOpen, setViewLyricOpen] = useState(false);
+    const [mySong, setMySong]=useState({});
     const [anchorEl, setAnchorEl] = useState(null);
 
     const handleOnMainLogo = () => {
@@ -58,12 +61,17 @@ const Dashboard = () => {
         setIsPauseButtonOpen(false);
     }
 
-    const handleOnLyric = () => {
-          alert('app is in development, kindly wait for update');
+    const handleOnLyric = (song) => {
+        setViewLyricOpen(true);
+        setMySong(song);
     }
 
     const handleOnSelectLanguage = (event) => {
         setLanguage(event.target.value);
+    }
+
+    const handleOnCloseViewLyricModal = () => {
+        setViewLyricOpen(false);
     }
 
     const handleClick = (event) => {
@@ -121,7 +129,7 @@ const Dashboard = () => {
                     return (
                         <div key={index} className='card'>
                             <span className='songTitle'> {language === 'Telugu' ? song.teluguTitle : song.englishTitle} </span>
-                            <button className='viewLyricButton' onClick={handleOnLyric}>View</button>
+                            <button className='viewLyricButton' onClick={()=> handleOnLyric(song)}>View</button>
                             {isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={()=>{handleOnPlayButton(song.englishTitle)}}/> }
                             {isPauseButtonOpen && <BiPause className='pauseButton' size={25} onClick={handleOnPauseButton}/> }
                             <img src={YoutubeIcon} alt='youtube link' className='youtubeButton'/>
@@ -130,6 +138,11 @@ const Dashboard = () => {
                 })
                 }
             </div>
+            { viewLyricOpen &&
+                <div>
+                    <ViewLyric handleOnCloseViewLyricModal={handleOnCloseViewLyricModal} mySong={mySong}/>
+                </div>
+            }
         </>
     );
 }
