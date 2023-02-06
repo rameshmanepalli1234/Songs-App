@@ -1,6 +1,7 @@
 import './Dashboard.scss';
 import yspm from '../Images/yspm.jpeg';
-import {Songs} from "../jsFiles/Songs";
+// import {Songs} from "../jsFiles/Songs";
+import {teluguSongs} from "../jsFiles/teluguSongs";
 import React, {useEffect, useState} from "react";
 import {BiX, BiPlay, BiPause} from 'react-icons/bi';
 import ContactUs from "../contactUs/ContactUs";
@@ -25,7 +26,7 @@ const Dashboard = () => {
     }
 
     useEffect(() => {
-        const filteredSongs = Songs.filter(song => song['title'].toLowerCase().includes(searchText));
+        const filteredSongs = teluguSongs.filter(song => song['englishTitle'].toLowerCase().includes(searchText));
         setFilteredSongsList([...filteredSongs])
     }, [searchText])
 
@@ -47,7 +48,7 @@ const Dashboard = () => {
     }
 
     const handleOnPlayButton = (songTitle) => {
-        console.log('songTitle =>',songTitle);
+        // console.log('songTitle =>',songTitle);
         setIsPauseButtonOpen(true);
         setIsPlayButtonOpen(false);
     }
@@ -119,9 +120,9 @@ const Dashboard = () => {
                 {filteredSongsList.map((song, index) => {
                     return (
                         <div key={index} className='card'>
-                            <span className='songTitle'> {language === 'Telugu' ? song.teluguTitle : song.title} </span>
+                            <span className='songTitle'> {language === 'Telugu' ? song.teluguTitle : song.englishTitle} </span>
                             <button className='viewLyricButton' onClick={handleOnLyric}>View</button>
-                            {isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={()=>{handleOnPlayButton(song.title)}}/> }
+                            {isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={()=>{handleOnPlayButton(song.englishTitle)}}/> }
                             {isPauseButtonOpen && <BiPause className='pauseButton' size={25} onClick={handleOnPauseButton}/> }
                             <img src={YoutubeIcon} alt='youtube link' className='youtubeButton'/>
                         </div>
