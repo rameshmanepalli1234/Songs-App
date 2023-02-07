@@ -13,7 +13,7 @@ const ContactUs = (props) =>{
                     <BiX size={24} className='customerServiceCloseIcon' onClick={handleOnCloseViewLyricModal}/>
                 </ModalHeader>
                 <ModalBody>
-                    {mySong.lyric}
+                     {mySong.lyric}
                 </ModalBody>
                 <ModalFooter>
                     <button onClick={handleOnCloseViewLyricModal}>Go Back</button>
