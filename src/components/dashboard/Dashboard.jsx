@@ -20,7 +20,7 @@ const Dashboard = () => {
     const [isCustomerServiceOpen, setIsCustomerServiceOpen] = useState(false);
     const [isPlayButtonOpen , setIsPlayButtonOpen] = useState(true);
     const [isPauseButtonOpen, setIsPauseButtonOpen] = useState(false);
-    const [language, setLanguage] = useState('Telugu');
+    // const [language, setLanguage] = useState('Telugu');
     const [viewLyricOpen, setViewLyricOpen] = useState(false);
     const [mySong, setMySong]=useState({});
     const [anchorEl, setAnchorEl] = useState(null);
@@ -68,7 +68,7 @@ const Dashboard = () => {
     }
 
     const handleOnSelectLanguage = (event) => {
-        setLanguage(event.target.value);
+        // setLanguage(event.target.value);
     }
 
     const handleOnCloseViewLyricModal = () => {

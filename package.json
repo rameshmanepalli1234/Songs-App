@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts npm run build",
     "clean": "rm -rf node_modules/"
   },
   "eslintConfig": {
