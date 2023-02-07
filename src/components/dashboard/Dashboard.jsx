@@ -1,7 +1,8 @@
 import './Dashboard.scss';
 import yspm from '../Images/yspm.jpeg';
 // import {Songs} from "../jsFiles/Songs";
-import {teluguSongs} from "../jsFiles/teluguSongs";
+// import {teluguSongs} from "../jsFiles/teluguSongs";
+import {songsTelugu} from '../jsFiles/songsTelugu';
 import React, {useEffect, useState} from "react";
 import {BiX, BiPlay, BiPause} from 'react-icons/bi';
 import ContactUs from "../contactUs/ContactUs";
@@ -29,7 +30,7 @@ const Dashboard = () => {
     }
 
     useEffect(() => {
-        const filteredSongs = teluguSongs.filter(song => song['englishTitle'].toLowerCase().includes(searchText));
+        const filteredSongs = songsTelugu.filter(song => song['title'].toLowerCase().includes(searchText));
         setFilteredSongsList([...filteredSongs])
     }, [searchText])
 
@@ -116,7 +117,7 @@ const Dashboard = () => {
             </h1>
                  <select className='selectLanguage' onChange={handleOnSelectLanguage}>
                      <option value='Telugu'>Telugu</option>
-                     <option value='English'>English</option>
+                     {/*<option value='English'>English</option>*/}
                  </select>
             <hr/>
             {isCustomerServiceOpen &&
@@ -128,9 +129,9 @@ const Dashboard = () => {
                 {filteredSongsList.map((song, index) => {
                     return (
                         <div key={index} className='card'>
-                            <span className='songTitle'> {language === 'Telugu' ? song.teluguTitle : song.englishTitle} </span>
+                            <span className='songTitle'> {song.title} </span>
                             <button className='viewLyricButton' onClick={()=> handleOnLyric(song)}>View</button>
-                            {isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={()=>{handleOnPlayButton(song.englishTitle)}}/> }
+                            {isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={handleOnPlayButton}/> }
                             {isPauseButtonOpen && <BiPause className='pauseButton' size={25} onClick={handleOnPauseButton}/> }
                             <img src={YoutubeIcon} alt='youtube link' className='youtubeButton'/>
                         </div>

@@ -9,11 +9,11 @@ const ContactUs = (props) =>{
         <div>
             <Modal isOpen={true} centered className='customerServiceModalContainer'>
                 <ModalHeader className='customerServiceModalHeader'>
-                    <span>{mySong.teluguTitle}</span>
+                    <span>{mySong.title}</span>
                     <BiX size={24} className='customerServiceCloseIcon' onClick={handleOnCloseViewLyricModal}/>
                 </ModalHeader>
                 <ModalBody>
-                    {mySong.teluguLyric}
+                    {mySong.lyric}
                 </ModalBody>
                 <ModalFooter>
                     <button onClick={handleOnCloseViewLyricModal}>Go Back</button>
