@@ -1,5 +1,5 @@
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e08415fb-621e-419a-848a-2ac98919624e/deploy-status)](https://app.netlify.com/sites/leafy-gumption-0a873c/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9ceca6ea-c3c4-47d6-9216-c3f9bd80154d/deploy-status)](https://app.netlify.com/sites/yspm-ministries/deploys)
 
 ## Install and Run:
 
