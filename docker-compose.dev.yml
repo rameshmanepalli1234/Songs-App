@@ -1,0 +1,15 @@
+version: "3.1"
+services:
+    songs_app:
+        #? Interactive shell
+        stdin_open: true
+        tty: true
+
+        #? Build the songs-app in development mode
+        build:
+            context: .
+            dockerfile: ./dockerfiles/Dockerfile.dev
+
+        #? ports (port 3000 as usual with react)
+        ports:
+            - "3000:3000"

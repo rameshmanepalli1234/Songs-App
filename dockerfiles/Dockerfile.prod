@@ -1,0 +1,36 @@
+#?###############################################
+#? Stage-1: Build React-App from base node image
+#?###############################################
+
+#?Import base node image
+FROM node:16.13-alpine as build
+
+#? The source directory
+WORKDIR /app
+
+#? Copy the package.json and package-lock.json
+COPY package.json .
+COPY package-lock.json .
+
+#? Install the packages
+RUN npm install
+
+#? Copy the rest of the source code
+COPY . .
+
+#? Builds the React-app as an optimized build
+RUN npm run build
+
+
+#?###############################################
+#? Stage-2: Serve built react-app using NGINX
+#?###############################################
+
+#? Import base nginx image
+FROM nginx:1.21-alpine as prod
+
+#? Copy stage 1 build into nginx serving directory
+COPY --from=build /app/build /usr/share/nginx/html
+
+#? Run this command to start serving using nginx
+CMD ["nginx", "-g", "daemon off;"]

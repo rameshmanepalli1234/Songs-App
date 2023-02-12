@@ -1,0 +1,18 @@
+#? Import base node image
+FROM node:16.13-alpine as build
+
+#? The source directory
+WORKDIR /app
+
+#? Copy the package.json and package-lock.json
+COPY package.json .
+COPY package-lock.json .
+
+#? Install the packages
+RUN npm install
+
+#? Copy the rest of the source code
+COPY . .
+
+#? Entrypoint
+CMD ["npm","run","start"]
