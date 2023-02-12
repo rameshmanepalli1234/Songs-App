@@ -1,73 +1,60 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e08415fb-621e-419a-848a-2ac98919624e/deploy-status)](https://app.netlify.com/sites/leafy-gumption-0a873c/deploys)
 
-# Getting Started with Create React App
+## Install and Run:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. To install the dependencies:
 
-## Available Scripts
+    npm install
 
-In the project directory, you can run:
+2. To run the application:
 
-### `npm start`
+    npm run start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Build and Compile:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. To build and compile the project into an optimized build:
 
-### `npm test`
+    npm run build
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Build and Run using docker across different modes:
 
-### `npm run build`
+1. To build and run the Songs-App in `development` mode:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    docker-compose -f docker-compose.dev.yml up -d --build
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. To build and run the Songs-App in `production` mode (using `Nginx`):
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    docker-compose -f docker-compose.prod.yml up -d --build
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. To stop the containers all at once:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    docker-compose -f docker-compose.dev.yml down
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+or 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    docker-compose -f docker-compose.prod.yml down
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Build and Run using Makefile:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Run and build in `development` mode:
 
-### Code Splitting
+    make compose_dev_up
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Run and build in `production` mode:
 
-### Analyzing the Bundle Size
+    make compose_prod_up
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Stop the containers all at once:
 
-### Making a Progressive Web App
+    make compose_dev_down
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+or 
 
-### Advanced Configuration
+    make compose_prod_down
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. Demo of the above example:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Demo](media/ss.png)

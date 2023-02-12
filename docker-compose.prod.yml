@@ -1,0 +1,15 @@
+version: "3.1"
+services:
+    songs_app:
+        #? Interactive shell
+        stdin_open: true
+        tty: true
+
+        #? Build the songs-app in development mode
+        build:
+            context: .
+            dockerfile: ./dockerfiles/Dockerfile.prod
+
+        #? ports (port 80 as Nginx serves on port 80 by default)
+        ports:
+            - "3000:80"
