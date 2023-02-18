@@ -1,6 +1,7 @@
 .close_view_lyric_button{
   position: absolute;
   right: 10px;
+  cursor: pointer;
 }
 
 .back_button{
@@ -17,4 +18,11 @@
   margin-bottom: 20px;
   height: 350px;
   overflow: scroll;
+}
+
+.view_lyric_modal{
+  -moz-user-select:none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }

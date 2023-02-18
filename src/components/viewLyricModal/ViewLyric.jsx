@@ -9,7 +9,7 @@ const ContactUs = (props) =>{
 
     return(
         <div>
-            <Modal isOpen={true} centered className='customerServiceModalContainer'>
+            <Modal isOpen={true} centered className='customerServiceModalContainer view_lyric_modal'>
                 <ModalHeader className='customerServiceModalHeader'>
                     <span>{mySong.title}</span>
                     <BiX size={24} className='close_view_lyric_button' onClick={handleOnCloseViewLyricModal}/>

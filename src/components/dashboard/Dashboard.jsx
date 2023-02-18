@@ -26,7 +26,7 @@ const Dashboard = () => {
     const [anchorEl, setAnchorEl] = useState(null);
 
     const handleOnMainLogo = () => {
-         window.location.reload();
+         // window.location.reload();
     }
 
     useEffect(() => {
