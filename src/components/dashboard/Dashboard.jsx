@@ -4,10 +4,10 @@ import yspm from '../Images/yspm.jpeg';
 // import {teluguSongs} from "../jsFiles/teluguSongs";
 import {songsTelugu} from '../jsFiles/songsTelugu';
 import React, {useEffect, useState} from "react";
-import {BiX, BiPlay, BiPause} from 'react-icons/bi';
+import {BiX} from 'react-icons/bi';
 import ContactUs from "../contactUs/ContactUs";
 import ContactUsIcon from '../Images/ContactUsIcon.png';
-import YoutubeIcon from '../Images/YoutubeIcon.png';
+// import YoutubeIcon from '../Images/YoutubeIcon.png';
 import { MenuItem, Menu, Button } from '@mui/material';
 import menuBar from '../Images/menuBar.png';
 import ViewLyric from "../viewLyricModal/ViewLyric";
@@ -18,8 +18,8 @@ const Dashboard = () => {
     const [searchText, setSearchText] = useState('');
     const [filteredSongsList, setFilteredSongsList] = useState([]);
     const [isCustomerServiceOpen, setIsCustomerServiceOpen] = useState(false);
-    const [isPlayButtonOpen , setIsPlayButtonOpen] = useState(true);
-    const [isPauseButtonOpen, setIsPauseButtonOpen] = useState(false);
+    // const [isPlayButtonOpen , setIsPlayButtonOpen] = useState(true);
+    // const [isPauseButtonOpen, setIsPauseButtonOpen] = useState(false);
     // const [language, setLanguage] = useState('Telugu');
     const [viewLyricOpen, setViewLyricOpen] = useState(false);
     const [mySong, setMySong]=useState({});
@@ -51,16 +51,16 @@ const Dashboard = () => {
         setIsCustomerServiceOpen(false);
     }
 
-    const handleOnPlayButton = (songTitle) => {
-        // console.log('songTitle =>',songTitle);
-        setIsPauseButtonOpen(true);
-        setIsPlayButtonOpen(false);
-    }
+    // const handleOnPlayButton = (songTitle) => {
+    //     // console.log('songTitle =>',songTitle);
+    //     setIsPauseButtonOpen(true);
+    //     setIsPlayButtonOpen(false);
+    // }
 
-    const handleOnPauseButton = () => {
-        setIsPlayButtonOpen(true);
-        setIsPauseButtonOpen(false);
-    }
+    // const handleOnPauseButton = () => {
+    //     setIsPlayButtonOpen(true);
+    //     setIsPauseButtonOpen(false);
+    // }
 
     const handleOnLyric = (song) => {
         setViewLyricOpen(true);
