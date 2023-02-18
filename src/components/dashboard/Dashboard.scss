@@ -5,13 +5,13 @@
 }
 
 .Heading_text{
-  margin-left: 10px;
-  font-size: 20px;
+  margin-left: 5px;
+  font-size: 18px;
 }
 
 .MainLogo{
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin-left: 5px;
   cursor: pointer;
   vertical-align: middle;  //keeping picture vertically align center
@@ -29,7 +29,7 @@
   font-size: 12px;
   position: absolute;
   right: 0px;
-  top:100px;
+  top:85px;
 }
 
 .viewLyricButton{
@@ -85,7 +85,7 @@
   //left:900px;
   right: 175px;
   font-size: 10px;
-  top: 105px;
+  top:90px
 }
 
 .crossSearchIcon{
@@ -107,7 +107,7 @@
   //vertical-align: middle;
   position: absolute;
   right: 60px;
-  top: 27px;
+  top: 20px;
 }
 
 .contactUsModal{
@@ -137,22 +137,20 @@
 
 .menuBarButton{
   position: absolute !important;
-  top: 20px;
   right: 0px !important;
 }
 
 .selectLanguage{
   position: absolute;
   left: 13px;
-  top: 102px;
+  top: 87px;
   font-size: 12px;
 }
 
 .dailyVerseImage{
-  width: 70px;
-  height: 60px;
-  //margin-left: 5px;
+  width: 60px;
+  height: 40px;
+  margin-left: -5px;
   cursor: pointer;
   vertical-align: middle;  //keeping picture vertically align center
-  border-radius: 20px;
 }
