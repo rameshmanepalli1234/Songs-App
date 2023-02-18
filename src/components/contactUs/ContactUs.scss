@@ -1,7 +1,7 @@
 .customerServiceCloseIcon{
   cursor: pointer;
-  margin-left: 20px;
-  vertical-align: middle;
+  position: absolute;
+  right: 10px;
 }
 
 .customerServiceModalContainer{
@@ -11,4 +11,9 @@
 
 .customerServiceModalHeader{
   font-size: 23px;
+}
+
+.cancel_button_customer_service{
+  margin-right: 15px !important;
+  cursor: pointer;
 }
