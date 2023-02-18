@@ -1,5 +1,6 @@
 import './Dashboard.scss';
 import yspm from '../Images/yspm.jpeg';
+import dailyVerse from '../Images/dailyVerse.jpeg';
 // import {Songs} from "../jsFiles/Songs";
 // import {teluguSongs} from "../jsFiles/teluguSongs";
 import {songsTelugu} from '../jsFiles/songsTelugu';
@@ -83,12 +84,16 @@ const Dashboard = () => {
         setAnchorEl(null);
     };
 
+    const handleOnDailyVerse = () => {
+
+    }
 
     return (
         <>
             <h1 className='DashboardHeading'>
                 <img src={yspm} className='MainLogo' alt='MusicLogo' onClick={handleOnMainLogo}/>
                 <span className='Heading_text'>YSPM Ministries </span>
+                <img src={dailyVerse} className='dailyVerseImage' alt='Daily Verse' onClick={handleOnDailyVerse} />
                 <span className='contactUs'> <img src={ContactUsIcon} alt='customerServiceLogo' className='contactUsIcon' onClick={handleOnCustomerService}/> </span>
                 {searchText ? <span className='searchResults'>{`Search Results - ${filteredSongsList.length} `}</span> : <span  className='searchResults'>{`Total Results - ${filteredSongsList.length}`}</span>}
                 <input className='input_dashboard' placeholder='Search in Telugu...' onChange={handleOnSearchSongs} value={searchText}/>
