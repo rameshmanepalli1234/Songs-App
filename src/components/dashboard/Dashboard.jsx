@@ -91,7 +91,7 @@ const Dashboard = () => {
                 <span className='Heading_text'>YSPM Ministries </span>
                 <span className='contactUs'> <img src={ContactUsIcon} alt='customerServiceLogo' className='contactUsIcon' onClick={handleOnCustomerService}/> </span>
                 {searchText ? <span className='searchResults'>{`Search Results - ${filteredSongsList.length} `}</span> : <span  className='searchResults'>{`Total Results - ${filteredSongsList.length}`}</span>}
-                <input className='input_dashboard' placeholder='Search...' onChange={handleOnSearchSongs} value={searchText}/>
+                <input className='input_dashboard' placeholder='Search in Telugu...' onChange={handleOnSearchSongs} value={searchText}/>
                 { searchText && <BiX className='crossSearchIcon' size={21} onClick={handleOnRemoveSearchText}/>}
 
 
@@ -109,13 +109,13 @@ const Dashboard = () => {
                     onClose={handleClose}
                     open={Boolean(anchorEl)}
                 >
-                    <MenuItem onClick={handleClose}>My Account</MenuItem>
-                    <MenuItem onClick={handleClose}>Settings</MenuItem>
-                    <MenuItem onClick={handleClose}>Profile</MenuItem>
-                    <MenuItem onClick={handleClose}>Logout</MenuItem>
+                    <MenuItem onClick={handleClose}>YSPM Songs</MenuItem>
+                    <MenuItem onClick={handleClose}>Visit Youtube</MenuItem>
+                    <MenuItem onClick={handleClose}>FaceBook</MenuItem>
+                    <MenuItem onClick={handleClose}>Read Bible</MenuItem>
                 </Menu>
             </h1>
-                 <select className='selectLanguage' onChange={handleOnSelectLanguage}>
+                 <select className='selectLanguage' onChange={handleOnSelectLanguage} disabled={true}>
                      <option value='Telugu'>Telugu</option>
                      {/*<option value='English'>English</option>*/}
                  </select>
@@ -131,9 +131,9 @@ const Dashboard = () => {
                         <div key={index} className='card'>
                             <span className='songTitle'> {song.title} </span>
                             <button className='viewLyricButton' onClick={()=> handleOnLyric(song)}>View</button>
-                            {isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={handleOnPlayButton}/> }
-                            {isPauseButtonOpen && <BiPause className='pauseButton' size={25} onClick={handleOnPauseButton}/> }
-                            <img src={YoutubeIcon} alt='youtube link' className='youtubeButton'/>
+                            {/*{isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={handleOnPlayButton}/> }*/}
+                            {/*{isPauseButtonOpen && <BiPause className='pauseButton' size={25} onClick={handleOnPauseButton}/> }*/}
+                            {/*<img src={YoutubeIcon} alt='youtube link' className='youtubeButton'/>*/}
                         </div>
                     )
                 })
