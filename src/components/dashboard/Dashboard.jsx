@@ -12,6 +12,8 @@ import ContactUsIcon from '../Images/ContactUsIcon.png';
 import { MenuItem, Menu, Button } from '@mui/material';
 import menuBar from '../Images/menuBar.png';
 import ViewLyric from "../viewLyricModal/ViewLyric";
+import {dailyVerses} from '../jsFiles/dailyVerses';
+import DailyVerses from '../DailyVerse/DailyVerses';
 
 
 const Dashboard = () => {
@@ -25,6 +27,8 @@ const Dashboard = () => {
     const [viewLyricOpen, setViewLyricOpen] = useState(false);
     const [mySong, setMySong]=useState({});
     const [anchorEl, setAnchorEl] = useState(null);
+    const [isDailyVerseOpen, setIsDailyVerseOpen]=useState(false);
+    const [verse, setVerse] = useState('');
 
     const handleOnMainLogo = () => {
          // window.location.reload();
@@ -85,7 +89,17 @@ const Dashboard = () => {
     };
 
     const handleOnDailyVerse = () => {
+        setIsDailyVerseOpen(true);
+           const date = new Date().toLocaleDateString();
+           dailyVerses.forEach(verse => {
+              if(verse.date === date) {
+                setVerse(verse);
+              }
+           })
+    }
 
+    const handleOnCloseDailyVerse = () => {
+        setIsDailyVerseOpen(false);
     }
 
     return (
@@ -147,6 +161,12 @@ const Dashboard = () => {
             { viewLyricOpen &&
                 <div>
                     <ViewLyric handleOnCloseViewLyricModal={handleOnCloseViewLyricModal} mySong={mySong}/>
+                </div>
+            }
+
+            {
+                isDailyVerseOpen && <div>
+                <DailyVerses handleOnCloseDailyVerse={handleOnCloseDailyVerse} verse={verse}/>
                 </div>
             }
         </>
