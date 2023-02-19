@@ -1,9 +1,9 @@
 export const dailyVerses = [
     {
-        englishVerse: 'Being born again, not of corruptible seed, but of incorruptible, by the word of God, which liveth and abideth for ever. \n  For all flesh is as grass, and all the glory of man as the flower of grass. The grass withereth, and the flower thereof falleth away',
-        teluguVerse: 'సర్వశరీరులు గడ్డినిపోలినవారు,వారి అందమంతయు గడ్డిపువ్వువలె ఉన్నది;అయితే దేవుని వాక్కు శాశ్వతముగ నిలుచును అని పరిశుద్ద గ్రంథము తెలుపుచున్నది.',
-        englishChapter: '1Peter 1:24',
-        teluguChapter:'1 పేతురు 1:24',
+        englishVerse: 'Who also hath made us able ministers of the new testament; not of the letter, but of the spirit: for the letter killeth, but the spirit giveth life.',
+        teluguVerse: 'ఆయనే మమ్మును క్రొత్త నిబంధనకు, అనగా అక్షరమునకు కాదు గాని ఆత్మకే పరి చారకులమవుటకు మాకు సామర్థ్యము కలిగించియున్నాడు. అక్షరము చంపునుగాని ఆత్మ జీవింపచేయును.',
+        englishChapter: '2 Corinthians 3:6',
+        teluguChapter:'2 కొరింథీయులకు 3:6',
         date: '19/02/2023'
     },
     {
