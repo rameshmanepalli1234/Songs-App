@@ -14,6 +14,7 @@ import menuBar from '../Images/menuBar.png';
 import ViewLyric from "../viewLyricModal/ViewLyric";
 import {dailyVerses} from '../jsFiles/dailyVerses';
 import DailyVerses from '../DailyVerse/DailyVerses';
+import {yspmSongs} from "../jsFiles/yspmSongs";
 
 
 const Dashboard = () => {
@@ -29,15 +30,16 @@ const Dashboard = () => {
     const [anchorEl, setAnchorEl] = useState(null);
     const [isDailyVerseOpen, setIsDailyVerseOpen]=useState(false);
     const [verse, setVerse] = useState('');
+    const [songsType, setSongsType] = useState('yspm');
 
     const handleOnMainLogo = () => {
          // window.location.reload();
     }
 
     useEffect(() => {
-        const filteredSongs = songsTelugu.filter(song => song['title'].toLowerCase().includes(searchText));
+        const filteredSongs = songsType==='yspm' ? yspmSongs : songsTelugu.filter(song => song['title'].toLowerCase().includes(searchText));
         setFilteredSongsList([...filteredSongs])
-    }, [searchText])
+    }, [searchText, songsType])
 
 
     const handleOnSearchSongs = (event) => {
@@ -102,6 +104,14 @@ const Dashboard = () => {
         setIsDailyVerseOpen(false);
     }
 
+    const handleOnAllSongs = () => {
+        setSongsType('all');
+    }
+
+    const handleOnYSPMSongs = () => {
+        setSongsType('yspm');
+    }
+
     return (
         <>
             <h1 className='DashboardHeading'>
@@ -139,6 +149,11 @@ const Dashboard = () => {
                      {/*<option value='English'>English</option>*/}
                  </select>
             <hr/>
+            {  songsType === 'yspm' ?
+                <Button className='all_songs_option' onClick={handleOnAllSongs}>All Songs</Button> :
+                <Button className='all_songs_option' onClick={handleOnYSPMSongs}>Yspm Songs</Button>
+            }
+
             {isCustomerServiceOpen &&
                 <div className='ContactUsModal'>
                 <ContactUs handleOnCloseCustomerService={handleOnCloseCustomerService}/>
