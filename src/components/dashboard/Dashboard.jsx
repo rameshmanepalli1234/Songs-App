@@ -144,10 +144,12 @@ const Dashboard = () => {
                     <MenuItem onClick={handleClose}>Read Bible</MenuItem>
                 </Menu>
             </h1>
+            { !+process.env.REACT_APP_HIDE_SELECT_LANGUAGE_DROPDOWN &&
                  <select className='selectLanguage' onChange={handleOnSelectLanguage} disabled={true}>
                      <option value='Telugu'>Telugu</option>
                      {/*<option value='English'>English</option>*/}
                  </select>
+            }
             <hr/>
             {  songsType === 'yspm' ?
                 <Button className='all_songs_option' onClick={handleOnAllSongs}>All Songs</Button> :
