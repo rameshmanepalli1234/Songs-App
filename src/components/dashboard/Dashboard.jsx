@@ -114,6 +114,10 @@ const Dashboard = () => {
         handleClose();
     }
 
+    const handleOnSongsType = () => {
+        alert('Select Songs Type from Menu Bar');
+    }
+
     return (
         <>
             <h1 className='DashboardHeading'>
@@ -155,8 +159,8 @@ const Dashboard = () => {
             }
             <hr/>
             {  songsType === 'yspm' ?
-                <Button className='all_songs_option'>Yspm Songs</Button> :
-                <Button className='all_songs_option'>All Songs</Button>
+                <Button className='all_songs_option' onClick={handleOnSongsType}>Yspm Songs</Button> :
+                <Button className='all_songs_option' onClick={handleOnSongsType}>All Songs</Button>
             }
 
             {isCustomerServiceOpen &&
