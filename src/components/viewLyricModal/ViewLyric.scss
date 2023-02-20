@@ -1,16 +1,19 @@
 .close_view_lyric_button{
+  color: red;
   position: absolute;
   right: 10px;
   cursor: pointer;
 }
 
 .back_button{
-  color: red !important;
+  color: white !important;
   border: 1px solid red !important;
+  background-color: #dc3545 !important;
+  border-radius: 5px !important;
 }
 
 .back_arrow_view_lyric{
-  margin-right: 7px;
+  margin-right: 3px;
 }
 
 .view_lyric_modal_body{
