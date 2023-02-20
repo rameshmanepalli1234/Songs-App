@@ -1,20 +1,32 @@
 .dailyVerseModal{
-  //height: 2000px;
+  -moz-user-select:none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .close_icon_daily_verse{
   position: absolute;
   top:10px;
   right: 10px;
+  cursor: pointer;
 }
 
 .dateTime_daily_verse{
   position: absolute;
-  top: 95px;
+  top: 50px;
   right: 10px;
   font-size: 14px;
 }
 
 .time_daily_verse{
   margin-left: 15px;
+}
+
+.yspm_image{
+  border-radius: 29px;
+}
+
+.text_verse_of_the_day{
+  margin-left: 10px;
 }

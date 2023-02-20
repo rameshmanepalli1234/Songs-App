@@ -1,7 +1,8 @@
 import {Modal, ModalBody, ModalFooter, ModalHeader} from "reactstrap";
-import {BiX} from "react-icons/bi";
+import {BiArrowBack, BiX} from "react-icons/bi";
 import {Button} from "react-bootstrap";
-import dailyVerse from '../Images/dailyVerse.jpeg';
+// import dailyVerse from '../Images/dailyVerse.jpeg';
+import yspm from '../Images/yspm.jpeg';
 import '../DailyVerse/DailyVerses.scss';
 import {useEffect, useState} from "react";
 
@@ -21,8 +22,8 @@ const DailyVerses = (props) => {
         <div>
             <Modal isOpen={true} centered className='dailyVerseModal'>
                 <ModalHeader className='customerServiceModalHeader'>
-                    <img src={dailyVerse} alt='daily verse' height={100} width={100}/>
-                    <span>Verse of the Day </span>
+                    <img src={yspm} alt='daily verse' height={40} width={40} className='yspm_image'/>
+                    <span className='text_verse_of_the_day'>Verse of the Day </span>
                     <br/>
                     <div className='dateTime_daily_verse'>
                         <span>{new Date().toLocaleDateString()}</span>
@@ -49,7 +50,7 @@ const DailyVerses = (props) => {
                     </div>
                 </ModalBody>
                 <ModalFooter>
-                    <Button className='cancel_button_customer_service' onClick={handleOnCloseDailyVerse}>Back</Button>
+                    <Button onClick={handleOnCloseDailyVerse}> <BiArrowBack/> Back</Button>
                 </ModalFooter>
             </Modal>
         </div>
