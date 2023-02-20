@@ -106,10 +106,12 @@ const Dashboard = () => {
 
     const handleOnAllSongs = () => {
         setSongsType('all');
+        handleClose();
     }
 
     const handleOnYSPMSongs = () => {
         setSongsType('yspm');
+        handleClose();
     }
 
     return (
@@ -138,10 +140,11 @@ const Dashboard = () => {
                     onClose={handleClose}
                     open={Boolean(anchorEl)}
                 >
-                    <MenuItem onClick={handleClose}>YSPM Songs</MenuItem>
-                    <MenuItem onClick={handleClose}>Visit Youtube</MenuItem>
-                    <MenuItem onClick={handleClose}>FaceBook</MenuItem>
-                    <MenuItem onClick={handleClose}>Read Bible</MenuItem>
+                    <MenuItem onClick={handleOnAllSongs}>All Songs</MenuItem>
+                    <MenuItem onClick={handleOnYSPMSongs}>YSPM Songs</MenuItem>
+                    {/*<MenuItem onClick={handleClose}>Visit Youtube</MenuItem>*/}
+                    {/*<MenuItem onClick={handleClose}>FaceBook</MenuItem>*/}
+                    {/*<MenuItem onClick={handleClose}>Read Bible</MenuItem>*/}
                 </Menu>
             </h1>
             { !+process.env.REACT_APP_HIDE_SELECT_LANGUAGE_DROPDOWN &&
@@ -152,8 +155,8 @@ const Dashboard = () => {
             }
             <hr/>
             {  songsType === 'yspm' ?
-                <Button className='all_songs_option' onClick={handleOnAllSongs}>All Songs</Button> :
-                <Button className='all_songs_option' onClick={handleOnYSPMSongs}>Yspm Songs</Button>
+                <Button className='all_songs_option'>Yspm Songs</Button> :
+                <Button className='all_songs_option'>All Songs</Button>
             }
 
             {isCustomerServiceOpen &&
