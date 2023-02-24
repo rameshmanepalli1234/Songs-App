@@ -42,17 +42,17 @@ export const dailyVerses = [
         date: '24/02/2023'
     },
     {
-        englishVerse: '',
-        teluguVerse: '',
-        englishChapter: '',
-        teluguChapter: '',
+        englishVerse: 'The LORD shall bless thee out of Zion: and thou shalt see the good of Jerusalem all the days of thy life.',
+        teluguVerse: 'సీయోనులోనుండి యెహోవా నిన్ను ఆశీర్వదించును నీ జీవితకాలమంతయు యెరూషలేమునకు క్షేమము కలుగుట చూచెదవు',
+        englishChapter: 'Psalms 128:5',
+        teluguChapter: 'కీర్తనల గ్రంథము 128:5',
         date: '25/02/2023'
     },
     {
-        englishVerse: '',
-        teluguVerse: '',
-        englishChapter: '',
-        teluguChapter: '',
+        englishVerse: 'Delight thyself also in the LORD: and he shall give thee the desires of thine heart.',
+        teluguVerse: 'యెహోవానుబట్టి సంతోషించుము ఆయన నీ హృదయవాంఛలను తీర్చును.',
+        englishChapter: 'Psalms 37:4',
+        teluguChapter: 'కీర్తనల గ్రంథము 37:4',
         date: '26/02/2023'
     },
     {
