@@ -35,13 +35,13 @@ const LSPagination = (props) => {
         handleOnSetItemsPerPage();
         if (currentPage === end) {
             setStart(end + 1);
-            setEnd(end + 10);
+            setEnd(end + 6);
         } else if (currentPage === start - 2 && currentPage > 1) {
             setEnd(start - 1);
-            setStart(start - 10);
+            setStart(start - 6);
         } else if (currentPage === 0) {
             setStart(1);
-            setEnd(10);
+            setEnd(6);
         }
     }, [currentPage, end, start, handleOnFetchCurrentPage, handleOnSetItemsPerPage]);
 
