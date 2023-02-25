@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import {Pagination, PaginationItem, PaginationLink} from "reactstrap";
 import PropTypes from "prop-types";
 import { itemsPerPage } from '../../commons/pagination-utils';
+import './LSPagination.scss';
 
 const LSPagination = (props) => {
     const { totalItems, perPageSize, handleOnFetchCurrentPage, handleOnSetItemsPerPage, searchText, handleOnFetchNumberOfPages } = props;
@@ -58,7 +59,7 @@ const LSPagination = (props) => {
 
     return (
         <div>
-            <Pagination>
+            <Pagination className='pagination'>
                 <PaginationItem disabled={currentPage <= 0}>
                     <PaginationLink
                         onClick={e => handleClick(e, currentPage - 1)}
