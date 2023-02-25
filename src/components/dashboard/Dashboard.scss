@@ -54,7 +54,7 @@
   //margin-top: 30px;
   margin-top: 5px;
   overflow-y: scroll;
-  height: 550px;
+  height: 430px;
 }
 
 .songTitle{
@@ -162,4 +162,9 @@
   top: -11px;
   background-color: skyblue !important;
   color: white !important;
+}
+
+.paginationBefore{
+  margin-top: 20px;
+  margin-left: 10px;
 }

@@ -15,6 +15,7 @@ import ViewLyric from "../viewLyricModal/ViewLyric";
 import {dailyVerses} from '../jsFiles/dailyVerses';
 import DailyVerses from '../DailyVerse/DailyVerses';
 import {yspmSongs} from "../jsFiles/yspmSongs";
+import LSPagination from "../reusable/LSPagination/LSPagination";
 
 
 const Dashboard = () => {
@@ -31,15 +32,30 @@ const Dashboard = () => {
     const [isDailyVerseOpen, setIsDailyVerseOpen]=useState(false);
     const [verse, setVerse] = useState('');
     const [songsType, setSongsType] = useState('yspm');
+    const [pages, setPages] = useState(50);
+    const [currentPage, setCurrentPage] = useState(0);
+    const [songsPerPage, setSongsPerPage] = useState([]);
 
     const handleOnMainLogo = () => {
          // window.location.reload();
     }
 
+    const handleOnFetchCurrentPage = (currentPage) => {
+        setCurrentPage(currentPage);
+        // this.setState({currentPage}, () => {
+        //     this.handleOnSetPackagesPerPage();
+        // });
+    }
+
     useEffect(() => {
         const filteredSongs = songsType==='yspm' ? yspmSongs : songsTelugu.filter(song => song['title'].toLowerCase().includes(searchText));
-        setFilteredSongsList([...filteredSongs])
+        setFilteredSongsList([...filteredSongs]);
     }, [searchText, songsType])
+
+    useEffect(()=> {
+        handleOnSetSongsPerPage();
+        console.log('hello');
+    });
 
 
     const handleOnSearchSongs = (event) => {
@@ -118,6 +134,23 @@ const Dashboard = () => {
         alert('Select Songs Type from Menu Bar');
     }
 
+    const handleOnSetSongsPerPage = () => {
+        // const {currentPage, filteredPackageList, pages} = this.state;
+        const songsPerPage = [];
+        for (let index = currentPage * pages; index < ((currentPage + 1) * pages); index++) {
+            if (index < filteredSongsList.length) {
+                songsPerPage.push(filteredSongsList[index]);
+            }
+        }
+        setSongsPerPage(songsPerPage);
+        // this.setState({ songsPerPage: [...songsPerPage] })
+    }
+
+    const handleOnFetchNumberOfPages = (pages) => {
+        setPages(pages);
+        // this.setState({ pages: pages });
+    }
+
     return (
         <>
             <h1 className='DashboardHeading'>
@@ -169,7 +202,7 @@ const Dashboard = () => {
                 </div>
             }
             <div className='songTitles'>
-                {filteredSongsList.map((song, index) => {
+                {songsPerPage.map((song, index) => {
                     return (
                         <div key={index} className='card'>
                             <span className='songTitle'> {song.title} </span>
@@ -193,6 +226,30 @@ const Dashboard = () => {
                 <DailyVerses handleOnCloseDailyVerse={handleOnCloseDailyVerse} verse={verse}/>
                 </div>
             }
+
+
+
+
+
+            <div className={filteredSongsList.length > 50 ? 'paginationBefore' : 'paginationAfter'}>
+                { songsPerPage?.length > 0 && filteredSongsList.length > 50 &&
+                    <LSPagination
+                        totalItems={filteredSongsList}
+                        perPageSize={pages}
+                        handleOnFetchCurrentPage={handleOnFetchCurrentPage}
+                        handleOnSetItemsPerPage={handleOnSetSongsPerPage}
+                        handleOnFetchNumberOfPages={handleOnFetchNumberOfPages}
+                        searchText={searchText}
+                        currentPage={currentPage}
+                    />
+                }
+            </div>
+
+
+
+
+
+
         </>
     );
 }
