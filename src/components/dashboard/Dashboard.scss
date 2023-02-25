@@ -54,7 +54,17 @@
   //margin-top: 30px;
   margin-top: 5px;
   overflow-y: scroll;
-  height: 430px;
+  height: 550px;
+}
+
+.songsTitlesPagination{
+  margin-left: 10px; //box shadow control
+  font-size: 14px;
+  margin-right: 10px;  //box shadow control
+  //margin-top: 30px;
+  margin-top: 5px;
+  overflow-y: scroll;
+  height: 480px;
 }
 
 .songTitle{
@@ -165,6 +175,6 @@
 }
 
 .paginationBefore{
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 10px;
 }

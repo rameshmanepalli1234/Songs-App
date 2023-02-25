@@ -200,7 +200,7 @@ const Dashboard = () => {
                 <ContactUs handleOnCloseCustomerService={handleOnCloseCustomerService}/>
                 </div>
             }
-            <div className='songTitles'>
+            <div className={ filteredSongsList.length > 50 ? 'songsTitlesPagination': 'songTitles'}>
                 {songsPerPage.map((song, index) => {
                     return (
                         <div key={index} className='card'>
