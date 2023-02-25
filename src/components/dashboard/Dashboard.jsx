@@ -1,4 +1,3 @@
-import './Dashboard.scss';
 import yspm from '../Images/yspm.jpeg';
 import dailyVerse from '../Images/dailyVerse.jpeg';
 // import {Songs} from "../jsFiles/Songs";
@@ -16,6 +15,9 @@ import {dailyVerses} from '../jsFiles/dailyVerses';
 import DailyVerses from '../DailyVerse/DailyVerses';
 import {yspmSongs} from "../jsFiles/yspmSongs";
 import LSPagination from "../reusable/LSPagination/LSPagination";
+import YoutubeIcon from '../Images/YoutubeIcon.png';
+import facebook from '../Images/facebook.png';
+import './Dashboard.scss';
 
 
 const Dashboard = () => {
@@ -129,6 +131,16 @@ const Dashboard = () => {
         handleClose();
     }
 
+    const handleOnVisitYoutube = () => {
+        window.open('https://youtube.com/@yesswasthataprayerministri9');
+        handleClose();
+    }
+
+    const handleOnOpenFacebook = () => {
+        window.open('https://www.facebook.com/profile.php?id=100047891737350&mibextid=ZbWKwL');
+        handleClose();
+    }
+
     const handleOnSongsType = () => {
         alert('Select Songs Type from Menu Bar');
     }
@@ -178,8 +190,8 @@ const Dashboard = () => {
                 >
                     <MenuItem onClick={handleOnAllSongs}>All Songs</MenuItem>
                     <MenuItem onClick={handleOnYSPMSongs}>YSPM Songs</MenuItem>
-                    {/*<MenuItem onClick={handleClose}>Visit Youtube</MenuItem>*/}
-                    {/*<MenuItem onClick={handleClose}>FaceBook</MenuItem>*/}
+                    <MenuItem onClick={handleOnVisitYoutube}>Visit us on Youtube<img src={YoutubeIcon} alt={'youtube icon'} width={25} height={25} className='youtubeIconMenuBar'/> </MenuItem>
+                    <MenuItem onClick={handleOnOpenFacebook}>Visit us on FaceBook <img src={facebook} alt='facebook icon' width={25} height={25} className='facebookIconMenuBar'/> </MenuItem>
                     {/*<MenuItem onClick={handleClose}>Read Bible</MenuItem>*/}
                 </Menu>
             </h1>
