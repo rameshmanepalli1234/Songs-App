@@ -52,9 +52,8 @@ const Dashboard = () => {
         setFilteredSongsList([...filteredSongs]);
     }, [searchText, songsType])
 
-    useEffect(()=> {
+    useEffect(() => {
         handleOnSetSongsPerPage();
-        console.log('hello');
     });
 
 

@@ -28,7 +28,7 @@ const LSPagination = (props) => {
     useEffect(() => {
         setPagesCount(Math.ceil(totalItems.length / perPageSize));
         handleOnSetItemsPerPage();
-    }, [pages])
+    }, [pages, handleOnSetItemsPerPage, perPageSize, totalItems.length])
 
     useEffect(() => {
         handleOnFetchCurrentPage(currentPage);
@@ -43,13 +43,13 @@ const LSPagination = (props) => {
             setStart(1);
             setEnd(10);
         }
-    }, [currentPage]);
+    }, [currentPage, end, start, handleOnFetchCurrentPage, handleOnSetItemsPerPage]);
 
     useEffect(() => {
         setCurrentPage(0);
         setPagesCount(Math.ceil(totalItems.length / perPageSize));
-        handleOnSetItemsPerPage();
-    }, [searchText])
+        // handleOnSetItemsPerPage();
+    }, [searchText,  perPageSize, totalItems.length])
 
     const handleOnSelectNumberOfPages = (event) => {
         handleOnFetchNumberOfPages(event.target.value);
@@ -74,6 +74,7 @@ const LSPagination = (props) => {
                                 </PaginationLink>
                             </PaginationItem>
                         }
+                        return true;
                     }
                 )}
                 <PaginationItem disabled={currentPage >= pagesCount - 1}>
