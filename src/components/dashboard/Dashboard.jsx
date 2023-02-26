@@ -33,7 +33,7 @@ const Dashboard = () => {
     const [anchorEl, setAnchorEl] = useState(null);
     const [isDailyVerseOpen, setIsDailyVerseOpen]=useState(false);
     const [verse, setVerse] = useState('');
-    const [songsType, setSongsType] = useState('yspm');
+    const [songsType, setSongsType] = useState('all');
     const [pages, setPages] = useState(50);
     const [currentPage, setCurrentPage] = useState(0);
     const [songsPerPage, setSongsPerPage] = useState([]);
