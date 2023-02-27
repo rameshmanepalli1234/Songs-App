@@ -122,11 +122,13 @@ const Dashboard = () => {
     }
 
     const handleOnAllSongs = () => {
+        setSearchText('');
         setSongsType('all');
         handleClose();
     }
 
     const handleOnYSPMSongs = () => {
+        setSearchText('');
         setSongsType('yspm');
         handleClose();
     }
