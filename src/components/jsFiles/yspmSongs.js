@@ -21,7 +21,8 @@ export const yspmSongs = [
             '             నీ ఆజ్ఞలను మాకు నేర్పు చున్నావు \n' +
             '             నీ జీవ మార్గములో నడిపించుచున్నావు \n' +
             '             నీ కృపతో నన్ను బలపరచుచున్నావు     "యేసయ్యా "',
-        englishTitle: ''
+        englishTitle: 'neela preminche devudu evarayya నీలా ప్రేమించే దేవుడు ఎవరయ్యా',
+        firstLetter: 'న'
     },
     {
         title: 'సీయోను పురములో శ్రీ మంతుడా',
@@ -44,7 +45,8 @@ export const yspmSongs = [
             '             కనుపరిచిన మహనీయుడా \n' +
             '             మమతను కురిపించి నా యేసయ్యా \n' +
             '             మరువకనే స్తుతించెద          "నీకే నా ఆరాధన" ',
-        englishTitle: ''
+        englishTitle: 'seeyonu puramulo shree manthuda సీయోను పురములో శ్రీ మంతుడా ',
+        firstLetter: 'స'
     },
     {
         title: 'రాజువైన నా దేవా నిన్ను ఘనపరచెదను ',
@@ -61,7 +63,8 @@ export const yspmSongs = [
             '               మహిమతో రానున్న మహరాజువు నీవు \n' +
             '               మహిమ పరచి నిన్ను కొనియాడెద \n' +
             '               మనసారా నీకే స్తుతిపాడెద                "ఆరాధన "',
-        englishTitle: ''
+        englishTitle: 'rajuvaina naa deva ninnu ghanaparachedanu రాజువైన నా దేవా నిన్ను ఘనపరచెదను',
+        firstLetter: 'ర'
     },
     {
         title: 'కనికరసంపర్ణుడా యేసయ్యా ',
@@ -85,7 +88,8 @@ export const yspmSongs = [
             '            నివాసులతో నిండిన పట్టణముగా \n' +
             '            ఇది మొదలుకొని ఈ దేశమంతయు \n' +
             '            నీ స్వాస్థ్యముకై స్థిరపరచినావు     " కృప తలంచుచు"',
-        englishTitle: ''
+        englishTitle: 'kanikara sampurnuda yesayya కనికరసంపర్ణుడా యేసయ్యా ',
+        firstLetter: 'క'
     },
     {
         title: 'శాశ్వతమైనది నీ కృపా',
@@ -107,7 +111,8 @@ export const yspmSongs = [
             '             వాగ్ధానమిచ్చిన నా యేసయ్యా \n' +
             '             ఆత్మతో సత్యముతో ఆరాధింతును \n' +
             '              నా ఆశతీర నా యేసయ్యా',
-        englishTitle: ''
+        englishTitle: 'saswathamainadi nee krupa శాశ్వతమైనది నీ కృపా',
+        firstLetter: 'శ'
     },
     {
         title: 'ఎడతెగని వాత్సల్యముతో',
@@ -127,7 +132,8 @@ export const yspmSongs = [
             '           నన్ను మార్చియున్నావని \n' +
             '           మనుషులను పట్టు జాలరిగా నన్ను \n' +
             '            నియమించియున్నావని                "నిన్నే "',
-        englishTitle: ''
+        englishTitle: 'edategani vatsalyamutho ఎడతెగని వాత్సల్యముతో',
+        firstLetter: 'ఎ'
     },
     {
         title: 'ఉదయము కొరకు కనిపెట్టేకావలనిగా',
@@ -150,7 +156,8 @@ export const yspmSongs = [
             '     పరిశుద్ధులతో కలిసి  నిన్ను స్తుతించెదనయ్యా \n' +
             '     బలిని కోరువాడవు నీవుకావు యేసయ్యా \n' +
             '     బలిపీఠముగా మారి నిన్ను స్తుతియించెదనయ్యా',
-        englishTitle: ''
+        englishTitle: 'vudayamu koraku kanipette kavalaniga ఉదయము కొరకు కనిపెట్టేకావలనిగా',
+        firstLetter: 'ఉ'
     },
     {
         title: 'పునరుద్దానుడా విజయశీలుడా',
@@ -167,7 +174,8 @@ export const yspmSongs = [
             '         లేఖనమును నెరవేర్చు సజీవుడవైనావు  \n' +
             '         మరణము నీ ముల్లుపక్కడ మరణము నీ విజయమెక్కడ  \n' +
             '         సవాల్ విసిరావు సజీవుడైనావు         "నీకే ఆరాధన "  ',
-        englishTitle: ''
+        englishTitle: 'punaruddanudaa vijayaseeluda పునరుద్దానుడా విజయశీలుడా',
+        firstLetter: 'ప'
     },
     {
         title: 'నిన్నే స్తుతియించెదను',
@@ -186,7 +194,8 @@ export const yspmSongs = [
             '3.         జనులను పట్టే జాలరిగా నన్ను చేసింది నీవే \n' +
             '           నా నోటినిండా నవ్వును నింప త్వరలో రానున్నావే \n' +
             '           నీ మాటే నా మలుపు - నీ ప్రేమే నా గెలుపు         "యేసయ్యా"',
-        englishTitle: ''
+        englishTitle: 'ninne stutiyimchedanu నిన్నే స్తుతియించెదను',
+        firstLetter: 'న'
     },
     {
         title: 'ఆశ్చర్యకరుడా నా యేసయ్యా',
@@ -211,7 +220,8 @@ export const yspmSongs = [
             '          నీ ఊసులే నీ నవ్వులే,నన్ను నడిపే నీ కనుసైగలే \n' +
             '          ఆశ్చర్యమే, ఆశ్చర్యమే నాతోన నీ ప్రేమ ఆశ్చర్యమే \n' +
             '                                                                                                           "స్తోత్రార్హణ"',
-        englishTitle: ''
+        englishTitle: 'aashcharyakaruda naa yesayya ఆశ్చర్యకరుడా నా యేసయ్యా',
+        firstLetter: 'ఆ'
     },
     {
         title: 'కృతజ్ఞత స్తుతి స్తోత్రములు',
@@ -228,7 +238,8 @@ export const yspmSongs = [
             '2.         చీకటిలోనుండి ఆశ్చర్యమైన-వెలుగులో నడిపించే నా మార్గము నీవని \n' +
             '           మారాయినా నా జీవితమును మధురముగా మార్చే నా సత్యము నీవని\n' +
             '                                                                                                                 "ఆరాధించెద"',
-        englishTitle: ''
+        englishTitle: 'krutagnata stuti stotramulu కృతజ్ఞత స్తుతి స్తోత్రములు',
+        firstLetter: 'క'
     },
     {
         title: 'నా మంచి కాపరి వ్యవసాయకుడా ',
@@ -246,7 +257,8 @@ export const yspmSongs = [
             '3.         సారాపై యున్న మంటిని దేవా-మక్కువతో నన్ను మలుచుము దేవా \n' +
             '           యోగ్యమైన పాత్రగా నన్ను సరిచేసే కుమ్మరి నీవే నా యేసయ్యా \n' +
             '           కుమ్మరి నీవే నా యేసయ్యా-నా జీవము నీవే నా యేసయ్యా',
-        englishTitle: ''
+        englishTitle: 'naa manchi kapari vyavasayakuda నా మంచి కాపరి వ్యవసాయకుడా ',
+        firstLetter: 'న'
     },
     {
         title: 'నాపై చూపిన కృపలకు',
@@ -262,7 +274,8 @@ export const yspmSongs = [
             '           నీదు రక్తముతో కడిగి నీకు సొత్తుగా చేసావు \n' +
             '           నీదు మహిమతో నింపి-నీదు సాక్షిగా మార్చావు \n' +
             '           నిన్నే ప్రకటింతును-నిన్నే స్తుతియింతును      "నాపై"',
-        englishTitle: ''
+        englishTitle: 'naa pai chupina krupalaku నాపై చూపిన కృపలకు',
+        firstLetter: 'న'
     },
     {
         title: 'యెహోవా నీ గుడారములో ',
@@ -276,7 +289,8 @@ export const yspmSongs = [
             '2.        ఆయనను స్తుతించుచు-అన్యజనులో కీర్తించుచు \n' +
             '          సువాసన వెదజల్లుచు- క్రీస్తు వలె జీవించుచు \n' +
             '          యేసు కొరకే ఇలలో జీవించువాడే                                "యెహోవా"',
-        englishTitle: ''
+        englishTitle: 'yehova nee gudaramulo యెహోవా నీ గుడారములో ',
+        firstLetter: 'య'
     },
     {
         title: 'నాకు బలము ఉన్నంతవరకు',
@@ -294,7 +308,8 @@ export const yspmSongs = [
             '            నీదు స్వరముతో నను పిలుచుకొన్నావు \n' +
             '            నీదు ఆత్మతో నను నింపుచున్నావు \n' +
             '            నీదు వాక్యముతో నను నడుపుచున్నావు',
-        englishTitle: ''
+        englishTitle: 'naaku balamu vunnanta varaku నాకు బలము ఉన్నంతవరకు',
+        firstLetter: 'న'
     },
     {
         title: 'మేలుకోవ ఓ మానవ',
@@ -318,7 +333,8 @@ export const yspmSongs = [
             '          జీవపు ఆహారముతో- కోట్లాది స్తుతులతో \n' +
             '          ఆనందం ఆ పరలోకమే\n' +
             '          సంతోషం మహా సంతోషమే        "మేలు"\n',
-        englishTitle: ''
+        englishTitle: 'melukova oo manava మేలుకోవ ఓ మానవ',
+        firstLetter: 'మ'
     },
     {
         title: 'నా జీవన గమనము నీవే ',
@@ -339,7 +355,8 @@ export const yspmSongs = [
             '         అవసరమును నీ మహిమైశ్వర్యముతో తీర్చిన నా యేసయ్యా \n' +
             '         నీవే నా కొండవయ్యా-నీవే నా కోటవయ్యా \n' +
             '         నీవే నా ఆశ్రయమయ్యా-నీవే నా యేసయ్యా        "నా జీవన "',
-        englishTitle: ''
+        englishTitle: 'naa jeevana gamanamu neevee నా జీవన గమనము నీవే ',
+        firstLetter: 'న'
     },
     {
         title: 'నాదు ప్రాణమా నా యేసయ్య ',
@@ -361,7 +378,8 @@ export const yspmSongs = [
             '                  నను పరమున చేర్చగను రానున్నావు \n' +
             '                  కృపామయుడా  నీ ప్రేమను యేల   మరువను \n' +
             '                  స్తుతియింతును  నా ఆశ తీరను                 "స్తోత్రం"',
-        englishTitle: ''
+        englishTitle: 'naadu pranamaa naa yesayya నాదు ప్రాణమా నా యేసయ్య',
+        firstLetter: 'న'
     },
     {
         title: 'మహనీయుడా నా మహనీయుడా',
@@ -404,6 +422,7 @@ export const yspmSongs = [
             '          యేసు కలిమి నిచ్చెను హల్లెలూయ \n' +
             '          యేసు విలువ నిచ్చెను హల్లెలూయ \n' +
             '          యేసు గమ్యమాయెను హల్లెలూయ హల్లెలూయ   "Happy"  \n',
-        englishTitle: ''
-    }
+        englishTitle: 'mahaneeyuda naa mahaneeyuda మహనీయుడా నా మహనీయుడా',
+        firstLetter: 'మ'
+    },
 ]

@@ -50,7 +50,7 @@ const Dashboard = () => {
     }
 
     useEffect(() => {
-        const filteredSongs = songsType==='yspm' ? yspmSongs : songsTelugu.filter(song => song['title'].toLowerCase().includes(searchText));
+        const filteredSongs = songsType==='yspm' ? yspmSongs.filter(song => song['englishTitle'].toLowerCase().includes(searchText)) : songsTelugu.filter(song => song['englishTitle'].toLowerCase().includes(searchText));
         setFilteredSongsList([...filteredSongs]);
     }, [searchText, songsType])
 
@@ -170,7 +170,7 @@ const Dashboard = () => {
                 <img src={dailyVerse} className='dailyVerseImage' alt='Daily Verse' onClick={handleOnDailyVerse} />
                 <span className='contactUs'> <img src={ContactUsIcon} alt='customerServiceLogo' className='contactUsIcon' onClick={handleOnCustomerService}/> </span>
                 {searchText ? <span className='searchResults'>{`Search Results - ${filteredSongsList.length} `}</span> : <span  className='searchResults'>{`Total Results - ${filteredSongsList.length}`}</span>}
-                <input className='input_dashboard' placeholder='Search in Telugu...' onChange={handleOnSearchSongs} value={searchText}/>
+                <input className='input_dashboard' placeholder='Search...' onChange={handleOnSearchSongs} value={searchText}/>
                 { searchText && <BiX className='crossSearchIcon' size={21} onClick={handleOnRemoveSearchText}/>}
 
 
