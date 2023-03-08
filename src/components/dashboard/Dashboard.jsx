@@ -182,7 +182,7 @@ const Dashboard = () => {
                     onClick={handleClick}
                     className='menuBarButton'
                 >
-                 <img src={menuBar} alt='menuBarIcon' height={22} width={22} />
+                 <img src={menuBar} alt='menuBarIcon' height={22} width={22} className='menuBarIcon' />
                 </Button>
                 <Menu
                     keepMounted
@@ -194,6 +194,7 @@ const Dashboard = () => {
                     <MenuItem onClick={handleOnYSPMSongs}>YSPM Songs</MenuItem>
                     <MenuItem onClick={handleOnVisitYoutube}>Visit us on Youtube<img src={YoutubeIcon} alt={'youtube icon'} width={25} height={25} className='youtubeIconMenuBar'/> </MenuItem>
                     <MenuItem onClick={handleOnOpenFacebook}>Visit us on FaceBook <img src={facebook} alt='facebook icon' width={25} height={25} className='facebookIconMenuBar'/> </MenuItem>
+                    <MenuItem onClick={handleClose}>Close</MenuItem>
                     {/*<MenuItem onClick={handleClose}>Read Bible</MenuItem>*/}
                 </Menu>
             </h1>

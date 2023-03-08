@@ -1,188 +1,644 @@
-.DashboardHeading{
-  text-align: left;
-  margin-top: 13px;
-  margin-bottom: 20px;
+
+
+@media screen and (min-width: 992px) {
+
+  .DashboardHeading{
+    text-align: left;
+    margin-top: 13px;
+    margin-bottom: 20px;
+  }
+
+  .Heading_text{
+    margin-left: 220px;
+    font-size: 29px;
+  }
+
+  .MainLogo{
+    width: 40px;
+    height: 40px;
+    margin-left: 250px;
+    vertical-align: middle;  //keeping picture vertically align center
+    border-radius: 20px;
+    display: none;
+  }
+
+  .input_dashboard{
+    width: 270px;
+    height: 28px;
+    //border: 2px solid black;
+    border-radius: 4px;
+    //float: right;
+    margin-right: 5px;
+    background: #f6f8f6;
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    top: 24px;
+  }
+
+  .viewLyricButton{
+    cursor: pointer;
+    //margin-top: 25px;    //keeping text in card vertically align
+    height: 30px;
+    width: 70px;
+    font-size: 15px;
+    position: absolute;
+    right: 30px;
+    top: 9px;
+    background: skyblue;
+    color: white;
+    border: none;
+    font-weight: 500;
+  }
+
+  .songTitles{      //-----> overall div for songs and view button
+    margin-left: 25px; //box shadow control
+    font-size: 18px;
+    margin-right: 50px;  //box shadow control
+    //margin-top: 30px;
+    margin-top: -30px;
+    overflow-y: scroll;
+    height: 670px;
+  }
+
+  .songsTitlesPagination{
+    margin-left: 25px; //box shadow control
+    font-size: 18px;
+    margin-right: 50px;  //box shadow control
+    //margin-top: 30px;
+    margin-top: -30px;
+    overflow-y: scroll;
+    height: 630px;
+  }
+
+  .songTitle{
+    width: 100%;
+    //display: inline-block;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 13px;
+  }
+
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    //height: 70px;
+    margin-bottom: 20px;
+    //margin-top: 20px;
+    height: 50px !important;
+  }
+
+  .card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .searchResults{
+    //font-weight: bold;
+    position: absolute;
+    //left:900px;
+    right: 50px;
+    font-size: 14px;
+    bottom: 25px;
+  }
+
+  .crossSearchIcon{
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    cursor: pointer;
+    right: 14px;
+    color: red;
+    top: 24px;
+  }
+
+  .contactUs{
+    margin-left: 3px;
+    cursor: pointer;
+  }
+
+  .contactUsIcon{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    //vertical-align: middle;
+    position: absolute;
+    left: 530px;
+    top: 22px;
+  }
+
+  .contactUsModal{
+    position: absolute;
+    top: -100px;
+  }
+
+  .playButton, .pauseButton{
+    //vertical-align: middle;
+    //margin-left: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 260px;
+    top: 12px;
+  }
+
+  .youtubeButton{
+    height: 20px;
+    width: 20px;
+    //vertical-align: middle;
+    //margin-left: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 290px;
+    top: 14px;
+  }
+
+  .menuBarButton{
+    position: absolute !important;
+    left: 13px !important;
+  }
+
+  .selectLanguage{
+    position: absolute;
+    left: 13px;
+    top: 87px;
+    font-size: 12px;
+  }
+
+  .dailyVerseImage{
+    width: 80px;
+    height: 50px;
+    margin-left: 0px;
+    cursor: pointer;
+    vertical-align: middle;  //keeping picture vertically align center
+    position: absolute;
+    top: 20px;
+    left: 440px;
+  }
+
+  .all_songs_option{
+    font-size: 14px !important;
+    position: absolute;
+    left: 80px;
+    top: -75px;
+    background-color: skyblue !important;
+    color: white !important;
+  }
+
+  .paginationBefore{
+    margin-top: 15px;
+    margin-left: 450px;
+  }
+
+  .youtubeIconMenuBar{
+    margin-left: 10px;
+  }
+
+  .facebookIconMenuBar{
+    margin-left: 7px;
+  }
+
+  .menuBarIcon{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 4px;
+    position: absolute;
+    //right: 1365px;
+    top: 10px;
+  }
+
 }
 
-.Heading_text{
-  margin-left: 5px;
-  font-size: 18px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+
+  .DashboardHeading{
+    text-align: left;
+    margin-top: 13px;
+    margin-bottom: 20px;
+  }
+
+  .Heading_text{
+    margin-left: 5px;
+    font-size: 18px;
+  }
+
+  .MainLogo{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+    vertical-align: middle;  //keeping picture vertically align center
+    border-radius: 20px;
+  }
+
+  .input_dashboard{
+    width: 160px;
+    height: 23px;
+    //border: 2px solid black;
+    border-radius: 4px;
+    //float: right;
+    margin-right: 5px;
+    background: #f6f8f6;
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    top:85px;
+  }
+
+  .viewLyricButton{
+    cursor: pointer;
+    //margin-top: 25px;    //keeping text in card vertically align
+    height: 27px;
+    width: 60px;
+    font-size: 15px;
+    position: absolute;
+    left: 270px;
+    top: 11px;
+    background: skyblue;
+    color: white;
+    border: none;
+    font-weight: 500;
+  }
+
+  .songTitles{      //-----> overall div for songs and view button
+    margin-left: 10px; //box shadow control
+    font-size: 14px;
+    margin-right: 10px;  //box shadow control
+    //margin-top: 30px;
+    margin-top: 5px;
+    overflow-y: scroll;
+    height: 550px;
+  }
+
+  .songsTitlesPagination{
+    margin-left: 10px; //box shadow control
+    font-size: 14px;
+    margin-right: 10px;  //box shadow control
+    //margin-top: 30px;
+    margin-top: 5px;
+    overflow-y: scroll;
+    height: 480px;
+  }
+
+  .songTitle{
+    width: 70%;
+    //display: inline-block;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 13px;
+  }
+
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    //height: 70px;
+    margin-bottom: 20px;
+    //margin-top: 20px;
+    height: 50px !important;
+  }
+
+  .card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .searchResults{
+    position: absolute;
+    //left:900px;
+    right: 175px;
+    font-size: 10px;
+    top:90px
+  }
+
+  .crossSearchIcon{
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    color: red;
+    top: 85px;
+  }
+
+  .contactUs{
+    margin-left: 3px;
+    cursor: pointer;
+  }
+
+  .contactUsIcon{
+    height: 25px;
+    width: 25px;
+    //vertical-align: middle;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+  }
+
+  .contactUsModal{
+    position: absolute;
+    top: -100px;
+  }
+
+  .playButton, .pauseButton{
+    //vertical-align: middle;
+    //margin-left: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 260px;
+    top: 12px;
+  }
+
+  .youtubeButton{
+    height: 20px;
+    width: 20px;
+    //vertical-align: middle;
+    //margin-left: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 290px;
+    top: 14px;
+  }
+
+  .menuBarButton{
+    position: absolute !important;
+    right: 0px !important;
+  }
+
+  .selectLanguage{
+    position: absolute;
+    left: 13px;
+    top: 87px;
+    font-size: 12px;
+  }
+
+  .dailyVerseImage{
+    width: 60px;
+    height: 40px;
+    margin-left: -5px;
+    cursor: pointer;
+    vertical-align: middle;  //keeping picture vertically align center
+  }
+
+  .all_songs_option{
+    font-size: 10px !important;
+    position: absolute;
+    left: 11px;
+    top: -11px;
+    background-color: skyblue !important;
+    color: white !important;
+  }
+
+  .paginationBefore{
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .youtubeIconMenuBar{
+    margin-left: 10px;
+  }
+
+  .facebookIconMenuBar{
+    margin-left: 7px;
+  }
+
 }
 
-.MainLogo{
-  width: 30px;
-  height: 30px;
-  margin-left: 5px;
-  cursor: pointer;
-  vertical-align: middle;  //keeping picture vertically align center
-  border-radius: 20px;
-}
 
-.input_dashboard{
-  width: 160px;
-  height: 23px;
-  //border: 2px solid black;
-  border-radius: 4px;
-  //float: right;
-  margin-right: 5px;
-  background: #f6f8f6;
-  font-size: 12px;
-  position: absolute;
-  right: 0px;
-  top:85px;
-}
 
-.viewLyricButton{
-  cursor: pointer;
-  //margin-top: 25px;    //keeping text in card vertically align
-  height: 27px;
-  width: 60px;
-  font-size: 15px;
-  position: absolute;
-  left: 270px;
-  top: 11px;
-  background: skyblue;
-  color: white;
-  border: none;
-  font-weight: 500;
-}
+@media screen and (max-width: 767px) and (orientation: portrait) {
 
-.songTitles{      //-----> overall div for songs and view button
-  margin-left: 10px; //box shadow control
-  font-size: 14px;
-  margin-right: 10px;  //box shadow control
-  //margin-top: 30px;
-  margin-top: 5px;
-  overflow-y: scroll;
-  height: 550px;
-}
+  .DashboardHeading{
+    text-align: left;
+    margin-top: 13px;
+    margin-bottom: 20px;
+  }
 
-.songsTitlesPagination{
-  margin-left: 10px; //box shadow control
-  font-size: 14px;
-  margin-right: 10px;  //box shadow control
-  //margin-top: 30px;
-  margin-top: 5px;
-  overflow-y: scroll;
-  height: 480px;
-}
+  .Heading_text{
+    margin-left: 5px;
+    font-size: 18px;
+  }
 
-.songTitle{
-  width: 70%;
-  //display: inline-block;
-  margin-left: 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin-top: 13px;
-}
+  .MainLogo{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+    vertical-align: middle;  //keeping picture vertically align center
+    border-radius: 20px;
+  }
 
-.card{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  //height: 70px;
-  margin-bottom: 20px;
-  //margin-top: 20px;
-  height: 50px !important;
-}
+  .input_dashboard{
+    width: 160px;
+    height: 23px;
+    //border: 2px solid black;
+    border-radius: 4px;
+    //float: right;
+    margin-right: 5px;
+    background: #f6f8f6;
+    font-size: 12px;
+    position: absolute;
+    right: 0px;
+    top:85px;
+  }
 
-.card:hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
+  .viewLyricButton{
+    cursor: pointer;
+    //margin-top: 25px;    //keeping text in card vertically align
+    height: 27px;
+    width: 60px;
+    font-size: 15px;
+    position: absolute;
+    left: 270px;
+    top: 11px;
+    background: skyblue;
+    color: white;
+    border: none;
+    font-weight: 500;
+  }
 
-.searchResults{
-  position: absolute;
-  //left:900px;
-  right: 175px;
-  font-size: 10px;
-  top:90px
-}
+  .songTitles{      //-----> overall div for songs and view button
+    margin-left: 10px; //box shadow control
+    font-size: 14px;
+    margin-right: 10px;  //box shadow control
+    //margin-top: 30px;
+    margin-top: 5px;
+    overflow-y: scroll;
+    height: 550px;
+  }
 
-.crossSearchIcon{
-  position: absolute;
-  cursor: pointer;
-  right: 10px;
-  color: red;
-  top: 85px;
-}
+  .songsTitlesPagination{
+    margin-left: 10px; //box shadow control
+    font-size: 14px;
+    margin-right: 10px;  //box shadow control
+    //margin-top: 30px;
+    margin-top: 5px;
+    overflow-y: scroll;
+    height: 480px;
+  }
 
-.contactUs{
-  margin-left: 3px;
-  cursor: pointer;
-}
+  .songTitle{
+    width: 70%;
+    //display: inline-block;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 13px;
+  }
 
-.contactUsIcon{
-  height: 25px;
-  width: 25px;
-  //vertical-align: middle;
-  position: absolute;
-  right: 60px;
-  top: 20px;
-}
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    //height: 70px;
+    margin-bottom: 20px;
+    //margin-top: 20px;
+    height: 50px !important;
+  }
 
-.contactUsModal{
-  position: absolute;
-  top: -100px;
-}
+  .card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
 
-.playButton, .pauseButton{
-  //vertical-align: middle;
-  //margin-left: 15px;
-  cursor: pointer;
-  position: absolute;
-  left: 260px;
-  top: 12px;
-}
+  .searchResults{
+    position: absolute;
+    //left:900px;
+    right: 175px;
+    font-size: 10px;
+    top:90px
+  }
 
-.youtubeButton{
-  height: 20px;
-  width: 20px;
-  //vertical-align: middle;
-  //margin-left: 15px;
-  cursor: pointer;
-  position: absolute;
-  left: 290px;
-  top: 14px;
-}
+  .crossSearchIcon{
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    color: red;
+    top: 85px;
+  }
 
-.menuBarButton{
-  position: absolute !important;
-  right: 0px !important;
-}
+  .contactUs{
+    margin-left: 3px;
+    cursor: pointer;
+  }
 
-.selectLanguage{
-  position: absolute;
-  left: 13px;
-  top: 87px;
-  font-size: 12px;
-}
+  .contactUsIcon{
+    height: 25px;
+    width: 25px;
+    //vertical-align: middle;
+    position: absolute;
+    right: 60px;
+    top: 20px;
+  }
 
-.dailyVerseImage{
-  width: 60px;
-  height: 40px;
-  margin-left: -5px;
-  cursor: pointer;
-  vertical-align: middle;  //keeping picture vertically align center
-}
+  .contactUsModal{
+    position: absolute;
+    top: -100px;
+  }
 
-.all_songs_option{
-  font-size: 10px !important;
- position: absolute;
-  left: 11px;
-  top: -11px;
-  background-color: skyblue !important;
-  color: white !important;
-}
+  .playButton, .pauseButton{
+    //vertical-align: middle;
+    //margin-left: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 260px;
+    top: 12px;
+  }
 
-.paginationBefore{
-  margin-top: 15px;
-  margin-left: 10px;
-}
+  .youtubeButton{
+    height: 20px;
+    width: 20px;
+    //vertical-align: middle;
+    //margin-left: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 290px;
+    top: 14px;
+  }
 
-.youtubeIconMenuBar{
-  margin-left: 10px;
-}
+  .menuBarButton{
+    position: absolute !important;
+    right: 0px !important;
+  }
 
-.facebookIconMenuBar{
-  margin-left: 7px;
+  .selectLanguage{
+    position: absolute;
+    left: 13px;
+    top: 87px;
+    font-size: 12px;
+  }
+
+  .dailyVerseImage{
+    width: 60px;
+    height: 40px;
+    margin-left: -5px;
+    cursor: pointer;
+    vertical-align: middle;  //keeping picture vertically align center
+  }
+
+  .all_songs_option{
+    font-size: 10px !important;
+    position: absolute;
+    left: 11px;
+    top: -11px;
+    background-color: skyblue !important;
+    color: white !important;
+  }
+
+  .paginationBefore{
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .youtubeIconMenuBar{
+    margin-left: 10px;
+  }
+
+  .facebookIconMenuBar{
+    margin-left: 7px;
+  }
+
 }

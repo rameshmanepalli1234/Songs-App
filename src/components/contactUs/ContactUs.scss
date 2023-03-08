@@ -1,19 +1,73 @@
-.customerServiceCloseIcon{
-  cursor: pointer;
-  position: absolute;
-  right: 10px;
+
+
+
+@media screen and (min-width: 992px) {
+
+  .customerServiceCloseIcon{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+  }
+
+  .customerServiceModalContainer{
+    // position: absolute;
+    //top:-800px
+  }
+
+  .customerServiceModalHeader{
+    font-size: 23px;
+  }
+
+  .cancel_button_customer_service{
+    margin-right: 15px !important;
+    cursor: pointer;
+  }
 }
 
-.customerServiceModalContainer{
-  // position: absolute;
-  //top:-800px
+
+@media screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+
+  .customerServiceCloseIcon{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+  }
+
+  .customerServiceModalContainer{
+    // position: absolute;
+    //top:-800px
+  }
+
+  .customerServiceModalHeader{
+    font-size: 23px;
+  }
+
+  .cancel_button_customer_service{
+    margin-right: 15px !important;
+    cursor: pointer;
+  }
 }
 
-.customerServiceModalHeader{
-  font-size: 23px;
-}
 
-.cancel_button_customer_service{
-  margin-right: 15px !important;
-  cursor: pointer;
+@media screen and (max-width: 767px) and (orientation: portrait) {
+
+  .customerServiceCloseIcon{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+  }
+
+  .customerServiceModalContainer{
+    // position: absolute;
+    //top:-800px
+  }
+
+  .customerServiceModalHeader{
+    font-size: 23px;
+  }
+
+  .cancel_button_customer_service{
+    margin-right: 15px !important;
+    cursor: pointer;
+  }
 }

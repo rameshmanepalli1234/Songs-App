@@ -1,80 +1,237 @@
-//.pagination{
-//  --bs-pagination-border-width: 0px !important;
-//  //background-color: red;
-//}
 
 
-.pagination .page-item .page-link {
-  border: 0;
-  border-radius: 30px !important;
-  transition: all .3s;
-  padding: 0px 11px;
-  margin: 0 3px;
-  min-width: 30px;
-  text-align: center;
-  height: 30px;
-  line-height: 30px;
-  color: #2c2c2c;
-  cursor: pointer;
-  font-size: 14px;
-  text-transform: uppercase;
-  background: transparent;
-  outline: none; }
-.pagination .page-item .page-link:hover, .pagination .page-item .page-link:focus {
-  color: #2c2c2c;
-  background-color: rgba(222, 222, 222, 0.3);
-  border: none; }
-.pagination .page-item .page-link:focus, .pagination .page-item .page-link:active:focus {
-  box-shadow: none; }
+@media screen and (min-width: 992px) {
 
-.pagination .arrow-margin-left,
-.pagination .arrow-margin-right {
-  position: absolute; }
+  .pagination .page-item .page-link {
+    border: 0;
+    border-radius: 30px !important;
+    transition: all .3s;
+    padding: 0px 11px;
+    margin: 0 3px;
+    min-width: 30px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #2c2c2c;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: transparent;
+    outline: none; }
+  .pagination .page-item .page-link:hover, .pagination .page-item .page-link:focus {
+    color: #2c2c2c;
+    background-color: rgba(222, 222, 222, 0.3);
+    border: none; }
+  .pagination .page-item .page-link:focus, .pagination .page-item .page-link:active:focus {
+    box-shadow: none; }
 
-.pagination .arrow-margin-right {
-  right: 0; }
+  .pagination .arrow-margin-left,
+  .pagination .arrow-margin-right {
+    position: absolute; }
 
-.pagination .arrow-margin-left {
-  left: 0; }
+  .pagination .arrow-margin-right {
+    right: 0; }
 
-.pagination .page-item.active > .page-link {
-  color: #FFFFFF;
-  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5); }
-.pagination .page-item.active > .page-link, .pagination .page-item.active > .page-link:focus, .pagination .page-item.active > .page-link:hover {
-  background-color: #396fc9;
-  border-color: #396fc9;
-  color: #FFFFFF; }
+  .pagination .arrow-margin-left {
+    left: 0; }
 
-.pagination .page-item.disabled > .page-link {
-  opacity: .5; }
+  .pagination .page-item.active > .page-link {
+    color: #FFFFFF;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5); }
+  .pagination .page-item.active > .page-link, .pagination .page-item.active > .page-link:focus, .pagination .page-item.active > .page-link:hover {
+    background-color: #396fc9;
+    border-color: #396fc9;
+    color: #FFFFFF; }
 
-.pagination.pagination-info .page-item.active > .page-link, .pagination.pagination-info .page-item.active > .page-link:focus, .pagination.pagination-info .page-item.active > .page-link:hover {
-  background-color: #51bcda;
-  border-color: #51bcda; }
+  .pagination .page-item.disabled > .page-link {
+    opacity: .5; }
 
-.pagination.pagination-success .page-item.active > .page-link, .pagination.pagination-success .page-item.active > .page-link:focus, .pagination.pagination-success .page-item.active > .page-link:hover {
-  background-color: #6bd098;
-  border-color: #6bd098; }
+  .pagination.pagination-info .page-item.active > .page-link, .pagination.pagination-info .page-item.active > .page-link:focus, .pagination.pagination-info .page-item.active > .page-link:hover {
+    background-color: #51bcda;
+    border-color: #51bcda; }
 
-.pagination.pagination-primary .page-item.active > .page-link, .pagination.pagination-primary .page-item.active > .page-link:focus, .pagination.pagination-primary .page-item.active > .page-link:hover {
-  background-color: #396fc9;
-  border-color: #396fc9; }
+  .pagination.pagination-success .page-item.active > .page-link, .pagination.pagination-success .page-item.active > .page-link:focus, .pagination.pagination-success .page-item.active > .page-link:hover {
+    background-color: #6bd098;
+    border-color: #6bd098; }
 
-.pagination.pagination-warning .page-item.active > .page-link, .pagination.pagination-warning .page-item.active > .page-link:focus, .pagination.pagination-warning .page-item.active > .page-link:hover {
-  background-color: #fbc658;
-  border-color: #fbc658; }
+  .pagination.pagination-primary .page-item.active > .page-link, .pagination.pagination-primary .page-item.active > .page-link:focus, .pagination.pagination-primary .page-item.active > .page-link:hover {
+    background-color: #396fc9;
+    border-color: #396fc9; }
 
-.pagination.pagination-danger .page-item.active > .page-link, .pagination.pagination-danger .page-item.active > .page-link:focus, .pagination.pagination-danger .page-item.active > .page-link:hover {
-  background-color: #ff0000;
-  border-color: #ff0000; }
+  .pagination.pagination-warning .page-item.active > .page-link, .pagination.pagination-warning .page-item.active > .page-link:focus, .pagination.pagination-warning .page-item.active > .page-link:hover {
+    background-color: #fbc658;
+    border-color: #fbc658; }
 
-.pagination.pagination-neutral .page-item > .page-link {
-  color: #FFFFFF; }
-.pagination.pagination-neutral .page-item > .page-link:focus, .pagination.pagination-neutral .page-item > .page-link:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #FFFFFF; }
+  .pagination.pagination-danger .page-item.active > .page-link, .pagination.pagination-danger .page-item.active > .page-link:focus, .pagination.pagination-danger .page-item.active > .page-link:hover {
+    background-color: #ff0000;
+    border-color: #ff0000; }
 
-.pagination.pagination-neutral .page-item.active > .page-link, .pagination.pagination-neutral .page-item.active > .page-link:focus, .pagination.pagination-neutral .page-item.active > .page-link:hover {
-  background-color: #FFFFFF;
-  border-color: #FFFFFF;
-  color: #396fc9; }
+  .pagination.pagination-neutral .page-item > .page-link {
+    color: #FFFFFF; }
+  .pagination.pagination-neutral .page-item > .page-link:focus, .pagination.pagination-neutral .page-item > .page-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF; }
+
+  .pagination.pagination-neutral .page-item.active > .page-link, .pagination.pagination-neutral .page-item.active > .page-link:focus, .pagination.pagination-neutral .page-item.active > .page-link:hover {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #396fc9; }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+
+  .pagination .page-item .page-link {
+    border: 0;
+    border-radius: 30px !important;
+    transition: all .3s;
+    padding: 0px 11px;
+    margin: 0 3px;
+    min-width: 30px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #2c2c2c;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: transparent;
+    outline: none; }
+  .pagination .page-item .page-link:hover, .pagination .page-item .page-link:focus {
+    color: #2c2c2c;
+    background-color: rgba(222, 222, 222, 0.3);
+    border: none; }
+  .pagination .page-item .page-link:focus, .pagination .page-item .page-link:active:focus {
+    box-shadow: none; }
+
+  .pagination .arrow-margin-left,
+  .pagination .arrow-margin-right {
+    position: absolute; }
+
+  .pagination .arrow-margin-right {
+    right: 0; }
+
+  .pagination .arrow-margin-left {
+    left: 0; }
+
+  .pagination .page-item.active > .page-link {
+    color: #FFFFFF;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5); }
+  .pagination .page-item.active > .page-link, .pagination .page-item.active > .page-link:focus, .pagination .page-item.active > .page-link:hover {
+    background-color: #396fc9;
+    border-color: #396fc9;
+    color: #FFFFFF; }
+
+  .pagination .page-item.disabled > .page-link {
+    opacity: .5; }
+
+  .pagination.pagination-info .page-item.active > .page-link, .pagination.pagination-info .page-item.active > .page-link:focus, .pagination.pagination-info .page-item.active > .page-link:hover {
+    background-color: #51bcda;
+    border-color: #51bcda; }
+
+  .pagination.pagination-success .page-item.active > .page-link, .pagination.pagination-success .page-item.active > .page-link:focus, .pagination.pagination-success .page-item.active > .page-link:hover {
+    background-color: #6bd098;
+    border-color: #6bd098; }
+
+  .pagination.pagination-primary .page-item.active > .page-link, .pagination.pagination-primary .page-item.active > .page-link:focus, .pagination.pagination-primary .page-item.active > .page-link:hover {
+    background-color: #396fc9;
+    border-color: #396fc9; }
+
+  .pagination.pagination-warning .page-item.active > .page-link, .pagination.pagination-warning .page-item.active > .page-link:focus, .pagination.pagination-warning .page-item.active > .page-link:hover {
+    background-color: #fbc658;
+    border-color: #fbc658; }
+
+  .pagination.pagination-danger .page-item.active > .page-link, .pagination.pagination-danger .page-item.active > .page-link:focus, .pagination.pagination-danger .page-item.active > .page-link:hover {
+    background-color: #ff0000;
+    border-color: #ff0000; }
+
+  .pagination.pagination-neutral .page-item > .page-link {
+    color: #FFFFFF; }
+  .pagination.pagination-neutral .page-item > .page-link:focus, .pagination.pagination-neutral .page-item > .page-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF; }
+
+  .pagination.pagination-neutral .page-item.active > .page-link, .pagination.pagination-neutral .page-item.active > .page-link:focus, .pagination.pagination-neutral .page-item.active > .page-link:hover {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #396fc9; }
+}
+
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+
+  .pagination .page-item .page-link {
+    border: 0;
+    border-radius: 30px !important;
+    transition: all .3s;
+    padding: 0px 11px;
+    margin: 0 3px;
+    min-width: 30px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #2c2c2c;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: transparent;
+    outline: none; }
+  .pagination .page-item .page-link:hover, .pagination .page-item .page-link:focus {
+    color: #2c2c2c;
+    background-color: rgba(222, 222, 222, 0.3);
+    border: none; }
+  .pagination .page-item .page-link:focus, .pagination .page-item .page-link:active:focus {
+    box-shadow: none; }
+
+  .pagination .arrow-margin-left,
+  .pagination .arrow-margin-right {
+    position: absolute; }
+
+  .pagination .arrow-margin-right {
+    right: 0; }
+
+  .pagination .arrow-margin-left {
+    left: 0; }
+
+  .pagination .page-item.active > .page-link {
+    color: #FFFFFF;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5); }
+  .pagination .page-item.active > .page-link, .pagination .page-item.active > .page-link:focus, .pagination .page-item.active > .page-link:hover {
+    background-color: #396fc9;
+    border-color: #396fc9;
+    color: #FFFFFF; }
+
+  .pagination .page-item.disabled > .page-link {
+    opacity: .5; }
+
+  .pagination.pagination-info .page-item.active > .page-link, .pagination.pagination-info .page-item.active > .page-link:focus, .pagination.pagination-info .page-item.active > .page-link:hover {
+    background-color: #51bcda;
+    border-color: #51bcda; }
+
+  .pagination.pagination-success .page-item.active > .page-link, .pagination.pagination-success .page-item.active > .page-link:focus, .pagination.pagination-success .page-item.active > .page-link:hover {
+    background-color: #6bd098;
+    border-color: #6bd098; }
+
+  .pagination.pagination-primary .page-item.active > .page-link, .pagination.pagination-primary .page-item.active > .page-link:focus, .pagination.pagination-primary .page-item.active > .page-link:hover {
+    background-color: #396fc9;
+    border-color: #396fc9; }
+
+  .pagination.pagination-warning .page-item.active > .page-link, .pagination.pagination-warning .page-item.active > .page-link:focus, .pagination.pagination-warning .page-item.active > .page-link:hover {
+    background-color: #fbc658;
+    border-color: #fbc658; }
+
+  .pagination.pagination-danger .page-item.active > .page-link, .pagination.pagination-danger .page-item.active > .page-link:focus, .pagination.pagination-danger .page-item.active > .page-link:hover {
+    background-color: #ff0000;
+    border-color: #ff0000; }
+
+  .pagination.pagination-neutral .page-item > .page-link {
+    color: #FFFFFF; }
+  .pagination.pagination-neutral .page-item > .page-link:focus, .pagination.pagination-neutral .page-item > .page-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF; }
+
+  .pagination.pagination-neutral .page-item.active > .page-link, .pagination.pagination-neutral .page-item.active > .page-link:focus, .pagination.pagination-neutral .page-item.active > .page-link:hover {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #396fc9; }
+}

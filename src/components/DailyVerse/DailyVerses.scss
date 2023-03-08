@@ -1,32 +1,112 @@
-.dailyVerseModal{
-  -moz-user-select:none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+
+
+@media screen and (min-width: 992px) {
+
+  .dailyVerseModal{
+    -moz-user-select:none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .close_icon_daily_verse{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .dateTime_daily_verse{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    font-size: 14px;
+  }
+
+  .time_daily_verse{
+    margin-left: 15px;
+  }
+
+  .yspm_image{
+    border-radius: 29px;
+  }
+
+  .text_verse_of_the_day{
+    margin-left: 10px;
+  }
 }
 
-.close_icon_daily_verse{
-  position: absolute;
-  top:10px;
-  right: 10px;
-  cursor: pointer;
+
+@media screen and (min-width: 768px) and (max-width: 991px) and (orientation: portrait) {
+
+  .dailyVerseModal{
+    -moz-user-select:none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .close_icon_daily_verse{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .dateTime_daily_verse{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    font-size: 14px;
+  }
+
+  .time_daily_verse{
+    margin-left: 15px;
+  }
+
+  .yspm_image{
+    border-radius: 29px;
+  }
+
+  .text_verse_of_the_day{
+    margin-left: 10px;
+  }
 }
 
-.dateTime_daily_verse{
-  position: absolute;
-  top: 50px;
-  right: 10px;
-  font-size: 14px;
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+
+  .dailyVerseModal{
+    -moz-user-select:none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .close_icon_daily_verse{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .dateTime_daily_verse{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    font-size: 14px;
+  }
+
+  .time_daily_verse{
+    margin-left: 15px;
+  }
+
+  .yspm_image{
+    border-radius: 29px;
+  }
+
+  .text_verse_of_the_day{
+    margin-left: 10px;
+  }
 }
 
-.time_daily_verse{
-  margin-left: 15px;
-}
-
-.yspm_image{
-  border-radius: 29px;
-}
-
-.text_verse_of_the_day{
-  margin-left: 10px;
-}
