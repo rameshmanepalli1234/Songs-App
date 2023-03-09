@@ -68,7 +68,7 @@
     //margin-top: 30px;
     margin-top: -30px;
     overflow-y: scroll;
-    height: 600px;
+    height: 630px;
   }
 
   .songTitle{
@@ -206,6 +206,13 @@
     position: absolute;
     //right: 1365px;
     top: 10px;
+  }
+
+  .info{
+    font-size: 14px;
+    position: absolute;
+    top: 30px;
+    right: 300px;
   }
 
 }
@@ -639,6 +646,12 @@
 
   .facebookIconMenuBar{
     margin-left: 7px;
+  }
+
+  .info{
+    font-size: 10px;
+    position: absolute;
+    margin-left: 10px;
   }
 
 }

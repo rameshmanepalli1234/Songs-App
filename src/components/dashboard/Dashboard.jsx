@@ -34,7 +34,7 @@ const Dashboard = () => {
     const [isDailyVerseOpen, setIsDailyVerseOpen]=useState(false);
     const [verse, setVerse] = useState('');
     const [songsType, setSongsType] = useState('all');
-    const [pages, setPages] = useState(50);
+    const [pages, setPages] = useState(500);
     const [currentPage, setCurrentPage] = useState(0);
     const [songsPerPage, setSongsPerPage] = useState([]);
 
@@ -169,6 +169,7 @@ const Dashboard = () => {
             <h1 className='DashboardHeading'>
                 <img src={yspm} className='MainLogo' alt='MusicLogo' onClick={handleOnMainLogo}/>
                 <span className='Heading_text'>YSPM Ministries </span>
+                <div className='info'>Christian songs lyrics and Daily Bible Verse-Verse of the Day</div>
                 <img src={dailyVerse} className='dailyVerseImage' alt='Daily Verse' onClick={handleOnDailyVerse} />
                 <span className='contactUs'> <img src={ContactUsIcon} alt='customerServiceLogo' className='contactUsIcon' onClick={handleOnCustomerService}/> </span>
                 {searchText ? <span className='searchResults'>{`Search Results - ${filteredSongsList.length} `}</span> : <span  className='searchResults'>{`Total Results - ${filteredSongsList.length}`}</span>}
