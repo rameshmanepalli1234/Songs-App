@@ -14,7 +14,7 @@ import ViewLyric from "../viewLyricModal/ViewLyric";
 import {dailyVerses} from '../jsFiles/dailyVerses';
 import DailyVerses from '../DailyVerse/DailyVerses';
 import {yspmSongs} from "../jsFiles/yspmSongs";
-import LSPagination from "../reusable/LSPagination/LSPagination";
+// import LSPagination from "../reusable/LSPagination/LSPagination";
 import YoutubeIcon from '../Images/YoutubeIcon.png';
 import facebook from '../Images/facebook.png';
 import './Dashboard.scss';
@@ -36,9 +36,9 @@ const Dashboard = () => {
     const [isDailyVerseOpen, setIsDailyVerseOpen]=useState(false);
     const [verse, setVerse] = useState('');
     const [songsType, setSongsType] = useState('all');
-    const [pages, setPages] = useState(500);
-    const [currentPage, setCurrentPage] = useState(0);
-    const [songsPerPage, setSongsPerPage] = useState([]);
+    // const [pages, setPages] = useState(500);
+    // const [currentPage, setCurrentPage] = useState(0);
+    // const [songsPerPage, setSongsPerPage] = useState([]);
 
     const handleOnMainLogo = () => {
          // window.location.reload();
