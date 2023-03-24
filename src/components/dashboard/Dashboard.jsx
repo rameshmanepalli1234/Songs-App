@@ -18,6 +18,8 @@ import LSPagination from "../reusable/LSPagination/LSPagination";
 import YoutubeIcon from '../Images/YoutubeIcon.png';
 import facebook from '../Images/facebook.png';
 import './Dashboard.scss';
+import {NotificationContainer, NotificationManager} from 'react-notifications';
+import { Tooltip } from 'react-tooltip'
 
 
 const Dashboard = () => {
@@ -42,22 +44,21 @@ const Dashboard = () => {
          // window.location.reload();
     }
 
-    const handleOnFetchCurrentPage = (currentPage) => {
-        setCurrentPage(currentPage);
-        // this.setState({currentPage}, () => {
-        //     this.handleOnSetPackagesPerPage();
-        // });
-    }
+    // const handleOnFetchCurrentPage = (currentPage) => {
+    //     setCurrentPage(currentPage);
+    //     // this.setState({currentPage}, () => {
+    //     //     this.handleOnSetPackagesPerPage();
+    //     // });
+    // }
 
     useEffect(() => {
         const filteredSongs = songsType==='yspm' ? yspmSongs.filter(song => song['englishTitle'].toLowerCase().includes(searchText)) : songsTelugu.filter(song => song['englishTitle'].toLowerCase().includes(searchText));
         setFilteredSongsList([...filteredSongs]);
     }, [searchText, songsType])
 
-    useEffect(() => {
-        handleOnSetSongsPerPage();
-    });
-
+    // useEffect(() => {
+    //     handleOnSetSongsPerPage();
+    // });
 
     const handleOnSearchSongs = (event) => {
         setSearchText(event.target.value.toLowerCase());
@@ -74,17 +75,6 @@ const Dashboard = () => {
    const handleOnCloseCustomerService = () => {
         setIsCustomerServiceOpen(false);
     }
-
-    // const handleOnPlayButton = (songTitle) => {
-    //     // console.log('songTitle =>',songTitle);
-    //     setIsPauseButtonOpen(true);
-    //     setIsPlayButtonOpen(false);
-    // }
-
-    // const handleOnPauseButton = () => {
-    //     setIsPlayButtonOpen(true);
-    //     setIsPauseButtonOpen(false);
-    // }
 
     const handleOnLyric = (song) => {
         setViewLyricOpen(true);
@@ -119,6 +109,9 @@ const Dashboard = () => {
 
     const handleOnCloseDailyVerse = () => {
         setIsDailyVerseOpen(false);
+        if(verse === '') {
+            NotificationManager.error('Sorry for inconvenience', 'verse is not available', 3000);
+        }
     }
 
     const handleOnAllSongs = () => {
@@ -144,32 +137,37 @@ const Dashboard = () => {
     }
 
     const handleOnSongsType = () => {
-        alert('Select Songs Type from Menu Bar');
-    }
-
-    const handleOnSetSongsPerPage = () => {
-        // const {currentPage, filteredPackageList, pages} = this.state;
-        const songsPerPage = [];
-        for (let index = currentPage * pages; index < ((currentPage + 1) * pages); index++) {
-            if (index < filteredSongsList.length) {
-                songsPerPage.push(filteredSongsList[index]);
-            }
+        if (songsType === 'all') {
+            NotificationManager.info('check menuBar for other songs','All Songs',2000);
         }
-        setSongsPerPage(songsPerPage);
-        // this.setState({ songsPerPage: [...songsPerPage] })
+        else if(songsType === 'yspm'){
+            NotificationManager.info('Info message','Yspm songs',2000);
+        }
     }
 
-    const handleOnFetchNumberOfPages = (pages) => {
-        setPages(pages);
-        // this.setState({ pages: pages });
-    }
+    // const handleOnSetSongsPerPage = () => {
+    //     // const {currentPage, filteredPackageList, pages} = this.state;
+    //     const songsPerPage = [];
+    //     for (let index = currentPage * pages; index < ((currentPage + 1) * pages); index++) {
+    //         if (index < filteredSongsList.length) {
+    //             songsPerPage.push(filteredSongsList[index]);
+    //         }
+    //     }
+    //     setSongsPerPage(songsPerPage);
+    //     // this.setState({ songsPerPage: [...songsPerPage] })
+    // }
+
+    // const handleOnFetchNumberOfPages = (pages) => {
+    //     setPages(pages);
+    //     // this.setState({ pages: pages });
+    // }
 
     return (
-        <>
+        <div>
             <h1 className='DashboardHeading'>
                 <img src={yspm} className='MainLogo' alt='MusicLogo' onClick={handleOnMainLogo}/>
                 <span className='Heading_text'>YSPM Ministries </span>
-                <div className='info'>Christian songs lyrics and Daily Bible Verse-Verse of the Day</div>
+                {/*<div className='info'>Christian songs lyrics and Daily Bible Verse-Verse of the Day</div>*/}
                 <img src={dailyVerse} className='dailyVerseImage' alt='Daily Verse' onClick={handleOnDailyVerse} />
                 <span className='contactUs'> <img src={ContactUsIcon} alt='customerServiceLogo' className='contactUsIcon' onClick={handleOnCustomerService}/> </span>
                 {searchText ? <span className='searchResults'>{`Search Results - ${filteredSongsList.length} `}</span> : <span  className='searchResults'>{`Total Results - ${filteredSongsList.length}`}</span>}
@@ -217,11 +215,11 @@ const Dashboard = () => {
                 </div>
             }
             <div className={ filteredSongsList.length > 50 ? 'songsTitlesPagination': 'songTitles'}>
-                {songsPerPage.map((song, index) => {
+                { /* songsPerPage */ filteredSongsList.map((song, index) => {
                     return (
                         <div key={index} className='card'>
                             <span className='songTitle'> {song.title} </span>
-                            <button className='viewLyricButton' onClick={()=> handleOnLyric(song)}>View</button>
+                            <button className='viewLyricButton' onClick={()=> handleOnLyric(song)} data-tooltip-id="viewLyric" data-tooltip-content="View Lyric">View</button>
                             {/*{isPlayButtonOpen && <BiPlay className='playButton' size={25} onClick={handleOnPlayButton}/> }*/}
                             {/*{isPauseButtonOpen && <BiPause className='pauseButton' size={25} onClick={handleOnPauseButton}/> }*/}
                             {/*<img src={YoutubeIcon} alt='youtube link' className='youtubeButton'/>*/}
@@ -246,26 +244,27 @@ const Dashboard = () => {
 
 
 
-            <div className={filteredSongsList.length > 50 ? 'paginationBefore' : 'paginationAfter'}>
-                { songsPerPage?.length > 0 && filteredSongsList.length > 50 &&
-                    <LSPagination
-                        totalItems={filteredSongsList}
-                        perPageSize={pages}
-                        handleOnFetchCurrentPage={handleOnFetchCurrentPage}
-                        handleOnSetItemsPerPage={handleOnSetSongsPerPage}
-                        handleOnFetchNumberOfPages={handleOnFetchNumberOfPages}
-                        searchText={searchText}
-                        currentPage={currentPage}
-                    />
-                }
-            </div>
+            {/*<div className={filteredSongsList.length > 50 ? 'paginationBefore' : 'paginationAfter'}>*/}
+            {/*    { songsPerPage?.length > 0 && filteredSongsList.length > 50 &&*/}
+            {/*        <LSPagination*/}
+            {/*            totalItems={filteredSongsList}*/}
+            {/*            perPageSize={pages}*/}
+            {/*            handleOnFetchCurrentPage={handleOnFetchCurrentPage}*/}
+            {/*            handleOnSetItemsPerPage={handleOnSetSongsPerPage}*/}
+            {/*            handleOnFetchNumberOfPages={handleOnFetchNumberOfPages}*/}
+            {/*            searchText={searchText}*/}
+            {/*            currentPage={currentPage}*/}
+            {/*        />*/}
+            {/*    }*/}
+            {/*</div>*/}
 
 
 
 
 
-
-        </>
+            <NotificationContainer />
+            <Tooltip id="viewLyric" className='viewLyricToolTip'/>
+        </div>
     );
 }
 

@@ -138,33 +138,11 @@ export const dailyVerses = [
     englishChapter: 'Deuteronomy 33:26',
     teluguChapter: 'ద్వితీయోపదేశ కాండము 33:26',
     date: '10/03/2023'
-},
-{
-    englishVerse: '',
-    teluguVerse: '',
-    englishChapter: '',
-    teluguChapter: '',
-    date: '11/03/2023'
-},
-{
-    englishVerse: '',
-    teluguVerse: '',
-    englishChapter: '',
-    teluguChapter: '',
-    date: '12/03/2023'
-},
-{
-    englishVerse: '',
-    teluguVerse: '',
-    englishChapter: '',
-    teluguChapter: '',
-    date: '13/03/2023'
-},
-{
-    englishVerse: '',
-    teluguVerse: '',
-    englishChapter: '',
-    teluguChapter: '',
-    date: '14/03/2023'
-}
+},{
+        englishVerse: 'There is none like unto the God of Jeshurun, who rideth upon the heaven in thy help, and in his excellency on the sky.',
+        teluguVerse: 'యెషూరూనూ, దేవుని పోలినవాడెవడును లేడు ఆయన నీకు సహాయము చేయుటకు ఆకాశవాహనుడై వచ్చును మహోన్నతుడై మేఘవాహనుడగును.',
+        englishChapter: 'Deuteronomy 33:26',
+        teluguChapter: 'ద్వితీయోపదేశ కాండము 33:26',
+        date: '11/03/2023'
+    }
 ]
