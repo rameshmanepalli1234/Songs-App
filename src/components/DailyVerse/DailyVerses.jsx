@@ -11,7 +11,7 @@ const DailyVerses = (props) => {
     const { handleOnCloseDailyVerse,verse } = props;
     const [time, setTime] = useState('');
 
-    useEffect(()=>{
+    useEffect(() => {
         setTimeout(()=>{
             let timeUpdate = new Date().toLocaleTimeString();
             setTime(timeUpdate);
